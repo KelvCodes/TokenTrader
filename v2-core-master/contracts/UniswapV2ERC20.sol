@@ -1,5 +1,4 @@
-ERC20 {
-    using SafeMath for uint;
+th for uint;
 
     string public constant name = 'Uniswap V2';
     string public constant symbol = 'UNI-V2';
