@@ -1,4 +1,4 @@
-C20 is IUniswapV2ERC20 {
+ERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Uniswap V2';
