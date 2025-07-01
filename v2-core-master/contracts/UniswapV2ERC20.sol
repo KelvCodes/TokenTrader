@@ -1,8 +1,4 @@
 
-                address(this)
-            )
-        );
-    }
 
     function _mint(address to, uint value) internal {
         totalSupply = totalSupply.add(value);
