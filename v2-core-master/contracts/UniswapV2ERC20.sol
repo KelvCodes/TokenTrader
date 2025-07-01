@@ -1,5 +1,5 @@
 
-    mapping(address => uint) public balanceOf;
+
     mapping(address => mapping(address => uint)) public allowance;
 
     bytes32 public DOMAIN_SEPARATOR;
