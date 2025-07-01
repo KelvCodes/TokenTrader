@@ -1,6 +1,4 @@
 
-        emit Approval(owner, spender, value);
-    }
 
     function _transfer(address from, address to, uint value) private {
         balanceOf[from] = balanceOf[from].sub(value);
