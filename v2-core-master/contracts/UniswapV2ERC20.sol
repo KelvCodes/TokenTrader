@@ -1,5 +1,4 @@
-alanceOf[to].add(value);
-        emit Transfer(from, to, value);
+rom, to, value);
     }
 
     function approve(address spender, uint value) external returns (bool) {
