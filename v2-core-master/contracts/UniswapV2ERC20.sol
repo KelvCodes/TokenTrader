@@ -1,6 +1,4 @@
-rom, to, value);
-    }
-
+ro
     function approve(address spender, uint value) external returns (bool) {
         _approve(msg.sender, spender, value);
         return true;
