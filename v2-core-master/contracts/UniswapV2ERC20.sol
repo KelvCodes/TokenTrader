@@ -1,7 +1,4 @@
 
-        balanceOf[to] = balanceOf[to].add(value);
-        emit Transfer(address(0), to, value);
-    }
 
     function _burn(address from, uint value) internal {
         balanceOf[from] = balanceOf[from].sub(value);
