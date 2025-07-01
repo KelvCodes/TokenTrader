@@ -1,6 +1,4 @@
-
-
-    event Approval(address indexed owner, address indexed spender, uint value);
+(address indexed owner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
 
     constructor() public {
