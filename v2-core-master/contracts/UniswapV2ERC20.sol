@@ -1,6 +1,4 @@
-;
 
-    constructor() public {
         uint chainId;
         assembly {
             chainId := chainid
