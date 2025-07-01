@@ -1,4 +1,4 @@
-(address indexed owner, address indexed spender, uint value);
+ner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
 
     constructor() public {
