@@ -1,6 +1,5 @@
 
-
-import './interfaces/contract UniswapV2ERC20 is IUniswapV2ERC20 {
+interfaces/contract UniswapV2ERC20 is IUniswapV2ERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Uniswap V2';
