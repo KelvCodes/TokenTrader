@@ -1,5 +1,4 @@
-eOf[from].sub(value);
-        balanceOf[to] = balanceOf[to].add(value);
+alanceOf[to].add(value);
         emit Transfer(from, to, value);
     }
 
