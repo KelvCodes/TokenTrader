@@ -1,5 +1,4 @@
-
-    event Transfer(address indexed from, address indexed to, uint value);
+dress indexed from, address indexed to, uint value);
 
     constructor() public {
         uint chainId;
