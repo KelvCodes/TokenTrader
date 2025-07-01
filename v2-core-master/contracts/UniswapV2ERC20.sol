@@ -1,4 +1,4 @@
-e,string version,uint256 chainId,address verifyingContract)'),
+d,address verifyingContract)'),
                 keccak256(bytes(name)),
                 keccak256(bytes('1')),
                 chainId,
