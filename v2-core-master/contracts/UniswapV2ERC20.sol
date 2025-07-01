@@ -1,6 +1,4 @@
 
-        uint chainId;
-        assembly {
             chainId := chainid
         }
         DOMAIN_SEPARATOR = keccak256(
