@@ -1,5 +1,4 @@
-d,address verifyingContract)'),
-                keccak256(bytes(name)),
+d,address verifname)),
                 keccak256(bytes('1')),
                 chainId,
                 address(this)
