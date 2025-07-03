@@ -1,5 +1,5 @@
 
- to, bytes calldata data) external;
+ tes calldata data) external;
     function skim(address to) external;
     function sync() external;
 
