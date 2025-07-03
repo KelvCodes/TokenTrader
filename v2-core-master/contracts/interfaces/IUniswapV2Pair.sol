@@ -1,6 +1,4 @@
-dress indexed to);
-    event Swap(
-        address indexed sender,
+
         uint amount0In,
         uint amount1In,
         uint amount0Out,
