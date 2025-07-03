@@ -180,4 +180,16 @@ interface IUniswapV2Pair {
     /// @notice Syncs the stored reserves with the actual token balances in the contract
     function sync() external;
 
+// --- Initialization ---
+
+    /**
+     * @notice Initializes the pair contract (called once by the factory)
+     * @param _token0 First token in the pair
+     * @param _token1 Second token in the pair
+     */
+    function initialize(address _token0, address _token1) external;
+}
+
+
+
     
