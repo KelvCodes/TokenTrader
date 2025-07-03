@@ -1,5 +1,5 @@
 
-  amount0Out, uint amount1Out, address to, bytes calldata data) external;
+nt0Out, uint amount1Out, address to, bytes calldata data) external;
     function skim(address to) external;
     function sync() external;
 
