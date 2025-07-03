@@ -1,7 +1,4 @@
 
-        uint amount0In,
-        uint amount1In,
-        uint amount0Out,
         uint amount1Out,
         address indexed to
     );
