@@ -1,4 +1,4 @@
- address)) public getPair;
+
     address[] public allPairs;
 
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
