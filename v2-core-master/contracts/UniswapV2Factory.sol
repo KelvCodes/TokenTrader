@@ -1,4 +1,4 @@
-indexed token1, address pair, uint);
+int);
 
     constructor(address _feeToSetter) public {
         feeToSetter = _feeToSetter;
