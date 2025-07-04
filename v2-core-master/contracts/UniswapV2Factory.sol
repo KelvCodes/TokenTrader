@@ -1,5 +1,4 @@
-
-    address public feeToSetter;
+Setter;
 
     mapping(address => mapping(address => address)) public getPair;
     address[] public allPairs;
