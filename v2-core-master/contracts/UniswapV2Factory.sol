@@ -1,4 +1,4 @@
-IUniswapV2Factory.sol';
+Factory.sol';
 import './UniswapV2Pair.sol';
 
 contract UniswapV2Factory is IUniswapV2Factory {
