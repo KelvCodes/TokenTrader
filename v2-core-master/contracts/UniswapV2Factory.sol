@@ -1,4 +1,4 @@
-= address(0), 'UniswapV2: PAIR_EXISTS'); // single check is sufficient
+ // single check is sufficient
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
         assembly {
