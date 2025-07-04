@@ -1,6 +1,4 @@
 
-        return allPairs.length;
-    }
 
     function createPair(address tokenA, address tokenB) external returns (address pair) {
         require(tokenA != tokenB, 'UniswapV2: IDENTICAL_ADDRESSES');
