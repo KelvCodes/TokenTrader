@@ -1,8 +1,4 @@
-, token1, pair, allPairs.length);
-    }
-
-    function setFeeTo(address _feeTo) external {
-        require(msg.sender == feeToSetter, 'UniswapV2: FORBIDDEN');
+ feeToSetter, 'UniswapV2: FORBIDDEN');
         feeTo = _feeTo;
     }
 
