@@ -1,5 +1,4 @@
-he reverse direction
-        allPairs.push(pair);
+ir);
         emit PairCreated(token0, token1, pair, allPairs.length);
     }
 
