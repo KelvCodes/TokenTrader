@@ -1,4 +1,4 @@
-swapV2Factory {
+
     address public feeTo;
     address public feeToSetter;
 
