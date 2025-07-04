@@ -1,5 +1,4 @@
-tor(address _feeToSetter) public {
-        feeToSetter = _feeToSetter;
+ _feeToSetter;
     }
 
     function allPairsLength() external view returns (uint) {
