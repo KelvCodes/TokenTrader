@@ -1,5 +1,4 @@
-ir);
-        emit PairCreated(token0, token1, pair, allPairs.length);
+, token1, pair, allPairs.length);
     }
 
     function setFeeTo(address _feeTo) external {
