@@ -1,5 +1,5 @@
 
-import './UniswapV2Pair.sol';
+pV2Pair.sol';
 
 contract UniswapV2Factory is IUniswapV2Factory {
     address public feeTo;
