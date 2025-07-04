@@ -1,4 +1,4 @@
-tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);
+;
         require(token0 != address(0), 'UniswapV2: ZERO_ADDRESS');
         require(getPair[token0][token1] == address(0), 'UniswapV2: PAIR_EXISTS'); // single check is sufficient
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
