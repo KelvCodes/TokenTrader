@@ -1,6 +1,5 @@
 
-
-    function allPairsLength() external view returns (uint) {
+external view returns (uint) {
         return allPairs.length;
     }
 
