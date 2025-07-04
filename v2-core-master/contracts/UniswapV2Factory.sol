@@ -1,4 +1,4 @@
-= create2(0, add(bytecode, 32), mload(bytecode), salt)
+d(bytecode), salt)
         }
         IUniswapV2Pair(pair).initialize(token0, token1);
         getPair[token0][token1] = pair;
