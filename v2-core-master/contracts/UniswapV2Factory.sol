@@ -1,6 +1,5 @@
 
-
-    event PairCreated(address indexed token0, address indexed token1, address pair, uint);
+ted(address indexed token0, address indexed token1, address pair, uint);
 
     constructor(address _feeToSetter) public {
         feeToSetter = _feeToSetter;
