@@ -1,6 +1,5 @@
 
-
-contract UniswapV2Factory is IUniswapV2Factory {
+Factory is IUniswapV2Factory {
     address public feeTo;
     address public feeToSetter;
 
