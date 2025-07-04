@@ -1,5 +1,4 @@
-
-Factory is IUniswapV2Factory {
+swapV2Factory {
     address public feeTo;
     address public feeToSetter;
 
