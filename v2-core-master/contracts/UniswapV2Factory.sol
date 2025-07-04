@@ -1,6 +1,4 @@
-int);
-
-    constructor(address _feeToSetter) public {
+tor(address _feeToSetter) public {
         feeToSetter = _feeToSetter;
     }
 
