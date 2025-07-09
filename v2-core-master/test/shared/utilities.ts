@@ -1,6 +1,5 @@
 
 
-n: number): BigNumber {
   return bigNumberify(n).mul(bigNumberify(10).pow(18))
 }
 
