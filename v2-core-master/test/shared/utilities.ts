@@ -1,7 +1,6 @@
 
   deadline: BigNumber
-): Promise<string> {
-  const name = await token.name()
+ame()
   const DOMAIN_SEPARATOR = getDomainSeparator(name, token.address)
   return keccak256(
     solidityPack(
