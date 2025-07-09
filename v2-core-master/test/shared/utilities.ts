@@ -1,6 +1,5 @@
 
-    '0xff',
-    factoryAddress,
+    '
     keccak256(solidityPack(['address', 'address'], [token0, token1])),
     keccak256(bytecode)
   ]
