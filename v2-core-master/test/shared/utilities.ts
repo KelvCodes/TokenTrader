@@ -1,4 +1,4 @@
-pender,uint256 value,uint256 nonce,uint256 deadline)')
+nce,uint256 deadline)')
 )
 
 export function expandTo18Decimals(n: number): BigNumber {
