@@ -1,5 +1,3 @@
-nitizedInputs).slice(-40)}`)
-}
 
 export async function getApprovalDigest(
   token: Contract,
