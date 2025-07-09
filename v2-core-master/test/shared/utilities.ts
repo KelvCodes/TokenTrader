@@ -1,7 +1,4 @@
-
-      ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
-      [
-        keccak256(toUtf8Bytes('EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)')),
+56(toUtf8Bytes('EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)')),
         keccak256(toUtf8Bytes(name)),
         keccak256(toUtf8Bytes('1')),
         1,
