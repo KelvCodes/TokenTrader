@@ -1,4 +1,4 @@
-reate2Inputs.map(i => i.slice(2)).join('')}`
+slice(2)).join('')}`
   return getAddress(`0x${keccak256(sanitizedInputs).slice(-40)}`)
 }
 
