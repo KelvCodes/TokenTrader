@@ -1,6 +1,5 @@
 
-  BigNumber,
-  bigNumberify,
+
   getAddress,
   keccak256,
   defaultAbiCoder,
