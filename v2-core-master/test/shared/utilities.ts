@@ -1,6 +1,5 @@
 
-
-  return bigNumberify(n).mul(bigNumberify(10).pow(18))
+ow(18))
 }
 
 function getDomainSeparator(name: string, tokenAddress: string) {
