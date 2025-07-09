@@ -1,6 +1,5 @@
 
   
-): string {
   const [token0, token1] = tokenA < tokenB ? [tokenA, tokenB] : [tokenB, tokenA]
   const create2Inputs = [
     '0xff',
