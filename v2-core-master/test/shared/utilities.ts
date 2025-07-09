@@ -1,6 +1,5 @@
 
-    spender: string
-    value: BigNumber
+    spenderr
   },
   nonce: BigNumber,
   deadline: BigNumber
