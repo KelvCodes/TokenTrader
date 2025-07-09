@@ -1,4 +1,4 @@
-chainId,address verifyingContract)')),
+
         keccak256(toUtf8Bytes(name)),
         keccak256(toUtf8Bytes('1')),
         1,
