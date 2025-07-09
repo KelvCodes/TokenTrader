@@ -1,6 +1,4 @@
 
-  approve: {
-    owner: string
     spender: string
     value: BigNumber
   },
