@@ -1,4 +1,4 @@
-, tokenAddress: string) {
+ng) {
   return keccak256(
     defaultAbiCoder.encode(
       ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
