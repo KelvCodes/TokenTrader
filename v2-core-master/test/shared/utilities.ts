@@ -1,6 +1,4 @@
 
-export function getCreate2Address(
-  factoryAddress: string,
   [tokenA, tokenB]: [string, string],
   bytecode: string
 ): string {
