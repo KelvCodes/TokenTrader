@@ -1,11 +1,4 @@
 
-        1,
-        tokenAddress
-      ]
-    )
-  )
-}
-
 export function getCreate2Address(
   factoryAddress: string,
   [tokenA, tokenB]: [string, string],
