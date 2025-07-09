@@ -1,17 +1,4 @@
 
-
-    solidityPack(
-     
-        '0x01',
-        DOMAIN_SEPARATOR,
-        ke, approve.owner, approve.spender, approve.value, nonce, deadline]
-          )
-        )
-      ]
-    )
-  )
-}
-
 export async function mineBlock(provider: Web3Provider, timestamp: number): Promise<void> {
   await new Promise(async (resolve, reject) => {
     ;(provider._web3Provider.sendAsync as any)(
