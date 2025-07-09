@@ -1,5 +1,4 @@
-okenA]
-  const create2Inputs = [
+
     '0xff',
     factoryAddress,
     keccak256(solidityPack(['address', 'address'], [token0, token1])),
