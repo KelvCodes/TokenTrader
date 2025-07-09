@@ -1,7 +1,4 @@
 
-    spenderr
-  },
-  nonce: BigNumber,
   deadline: BigNumber
 ): Promise<string> {
   const name = await token.name()
