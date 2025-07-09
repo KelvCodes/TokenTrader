@@ -1,6 +1,4 @@
 
-export async function getApprovalDigest(
-  token: Contract,
   approve: {
     owner: string
     spender: string
