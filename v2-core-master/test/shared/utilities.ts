@@ -1,5 +1,4 @@
-, token1])),
-    keccak256(bytecode)
+, token1ytecode)
   ]
   const sanitizedInputs = `0x${create2Inputs.map(i => i.slice(2)).join('')}`
   return getAddress(`0x${keccak256(sanitizedInputs).slice(-40)}`)
