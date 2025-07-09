@@ -1,5 +1,4 @@
-import { Contract } from 'import { Web3Provider } from 'ethers/providers'
-import {
+
   BigNumber,
   bigNumberify,
   getAddress,
