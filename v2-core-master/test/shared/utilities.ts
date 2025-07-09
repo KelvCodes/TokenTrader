@@ -1,8 +1,5 @@
 
-  deadline: BigNumber
-ame()
-  const DOMAIN_SEPARATOR = getDomainSeparator(name, token.address)
-  return keccak256(
+
     solidityPack(
       ['bytes1', 'bytes1', 'bytes32', 'bytes32'],
       [
