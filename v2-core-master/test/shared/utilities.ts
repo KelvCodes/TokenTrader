@@ -1,4 +1,4 @@
-[tokenA, tokenB] : [tokenB, tokenA]
+okenA]
   const create2Inputs = [
     '0xff',
     factoryAddress,
