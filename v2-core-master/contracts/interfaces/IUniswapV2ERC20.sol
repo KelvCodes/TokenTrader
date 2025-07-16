@@ -1,4 +1,4 @@
-e(address spender, uint value) external returns (bool);
+nder, uint value) external returns (bool);
     function transfer(address to, uint value) external returns (bool);
     function transferFrom(address from, address to, uint value) external returns (bool);
 
