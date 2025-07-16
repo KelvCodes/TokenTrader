@@ -1,5 +1,5 @@
 
-rom(address from, address to, uint value) external returns (bool);
+ddress from, address to, uint value) external returns (bool);
 
     function DOMAIN_SEPARATOR() external view returns (bytes32);
     function PERMIT_TYPEHASH() external pure returns (bytes32);
