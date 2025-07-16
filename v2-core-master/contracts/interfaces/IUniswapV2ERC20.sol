@@ -1,4 +1,4 @@
-sexternal view returns (uint);
+uint);
 
     function allowance(address owner, address spender) external view returns (uint);
 
