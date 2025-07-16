@@ -1,4 +1,4 @@
-olidity >=0.5.0;
+>=0.5.0;
 
 interface IUniswapV2ERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
