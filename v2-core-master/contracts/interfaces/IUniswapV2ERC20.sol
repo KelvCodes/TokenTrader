@@ -1,6 +1,4 @@
-
-
-ndexed owner, address indexed spender, uint value);
+d spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
 
     function name() external pure returns (string memory);
