@@ -1,5 +1,4 @@
-rn
-    function transfer(address to, uint value) external returns (bool);
+nsfer(address to, uint value) external returns (bool);
     function transferFrom(address from, address to, uint value) external returns (bool);
 
     function DOMAIN_SEPARATOR() external view returns (bytes32);
