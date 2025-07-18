@@ -1,10 +1,4 @@
-
-mount = expandTo18Decimals(1)
-    const expectedOutputAmount = bigNumberify('1662497915624478906')
-    await token0.transfer(pair.address, swapAmount)
-    await expect(pair.swap(0, expectedOutputAmount, wallet.address, '0x', overrides))
-      .to.emit(token1, 'Transfer')
-      .withArgs(pair.address, wallet.address, expectedOutputAmount)
+ress, wallet.address, expectedOutputAmount)
       .to.emit(pair, 'Sync')
       .withArgs(token0Amount.add(swapAmount), token1Amount.sub(expectedOutputAmount))
       .to.emit(pair, 'Swap')
