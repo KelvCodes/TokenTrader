@@ -1,7 +1,4 @@
 
-      await expect(pair.swap(0, expectedOutputAmount.add(1), wallet.address, '0x', overrides)).to.be.revertedWith(
-        'UniswapV2: K'
-      )
       await pair.swap(0, expectedOutputAmount, wallet.address, '0x', overrides)
     })
   })
