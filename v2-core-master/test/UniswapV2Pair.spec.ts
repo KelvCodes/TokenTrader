@@ -1,9 +1,4 @@
 
-      )
-      await pair.swap(outputAmount, 0, wallet.address, '0x', overrides)
-    })
-  })
-
   it('swap:token0', async () => {
     const token0Amount = expandTo18Decimals(5)
     const token1Amount = expandTo18Decimals(10)
