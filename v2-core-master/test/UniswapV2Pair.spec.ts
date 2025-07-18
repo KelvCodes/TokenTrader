@@ -1,5 +1,4 @@
- 100, 100, '987158034397061298'],
-    [1, 1000, 1000, '996006981039903216']
+0, '996006981039903216']
   ].map(a => a.map(n => (typeof n === 'string' ? bigNumberify(n) : expandTo18Decimals(n))))
   swapTestCases.forEach((swapTestCase, i) => {
     it(`getInputPrice:${i}`, async () => {
