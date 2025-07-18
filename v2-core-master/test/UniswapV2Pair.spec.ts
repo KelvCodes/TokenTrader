@@ -1,6 +1,5 @@
 ineBlocd/utilities'
-import { pairFixture } from './shared/fixtures'
-import { AddressZero } from 'ethers/constants'
+import { pairFixture om 'ethers/constants'
 
 const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
 
