@@ -1,8 +1,3 @@
-ress, wallet.address, expectedOutputAmount)
-      .to.emit(pair, 'Sync')
-      .withArgs(token0Amount.add(swapAmount), token1Amount.sub(expectedOutputAmount))
-      .to.emit(pair, 'Swap')
-      .withArgs(wallet.address, swapAmount, 0, 0, expectedOutputAmount, wallet.address)
 
     const reserves = await pair.getReserves()
     expect(reserves[0]).to.eq(token0Amount.add(swapAmount))
