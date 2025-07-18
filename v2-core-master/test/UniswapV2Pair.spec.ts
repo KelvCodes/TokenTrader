@@ -1,5 +1,4 @@
-t token0.transfer(pair.address, token0Amount)
-    await token1.transfer(pair.address, token1Amount)
+token1Amount)
     await pair.mint(wallet.address, overrides)
   }
   const swapTestCases: BigNumber[][] = [
