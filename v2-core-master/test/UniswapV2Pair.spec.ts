@@ -1,5 +1,4 @@
-ethers'
-import { solidirify } from 'ethers/utils'
+from 'ethers/utils'
 
 import { expandTo18Decimals, mineBlock, encodePrice } from './shared/utilities'
 import { pairFixture } from './shared/fixtures'
