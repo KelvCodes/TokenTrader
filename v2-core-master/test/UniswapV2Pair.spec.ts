@@ -1,7 +1,4 @@
-
-      .withArgs(wallet.address, token0Amount, token1Amount)
-
-    expect(await pair.totalSupply()).to.eq(expectedLiquidity)
+wait pair.totalSupply()).to.eq(expectedLiquidity)
     expect(await pair.balanceOf(wallet.address)).to.eq(expectedLiquidity.sub(MINIMUM_LIQUIDITY))
     expect(await token0.balanceOf(pair.address)).to.eq(token0Amount)
     expect(await token1.balanceOf(pair.address)).to.eq(token1Amount)
