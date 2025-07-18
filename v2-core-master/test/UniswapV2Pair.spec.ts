@@ -1,9 +1,5 @@
 
-      await pair.swap(0, expectedOutputAmount, wallet.address, '0x', overrides)
-    })
-  })
-
-  const optimisticTestCases: BigNumber[][] = [
+isticTestCases: BigNumber[][] = [
     ['997000000000000000', 5, 10, 1], // given amountIn, amountOut = floor(amountIn * .997)
     ['997000000000000000', 10, 5, 1],
     ['997000000000000000', 5, 5, 1],
