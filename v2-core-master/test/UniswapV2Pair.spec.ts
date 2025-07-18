@@ -1,16 +1,6 @@
 
 
-  it('swap:token1', async () => {
-    const token0Amount = expandTo18Decimals(5)
-    const token1Amount = expandTo18Decimals(10)
-    await addLiquidity(token0Amount, token1Amount)
-
-    const swapAmount = expandTo18Decimals(1)
-    const expectedOutputAmount = bigNumberify('453305446940074565')
-    await token1.transfer(pair.address, swapAmount)
-    await expect(pair.swap(expectedOutputAmount, 0, wallet.address, '0x', overrides))
-      .to.emit(token0, 'Transfer')
-      .withArgs(pair.address, wallet.address, expectedOutputAmount)
+ress, wallet.address, expectedOutputAmount)
       .to.emit(pair, 'Sync')
       .withArgs(token0Amount.sub(expectedOutputAmount), token1Amount.add(swapAmount))
       .to.emit(pair, 'Swap')
