@@ -1,6 +1,4 @@
- MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
-
-chai.use(solidity)
+)
 
 const overrides = {
   gasLimit: 9999999
