@@ -1,9 +1,4 @@
 
-
-  
-    await token1.transfer(pair.address, token1Amount)
-
-    const expectedLiquidity = expandTo18Decimals(2)
     await expect(pair.mint(wallet.address, overrides))
       .to.emit(pair, 'Transfer')
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
