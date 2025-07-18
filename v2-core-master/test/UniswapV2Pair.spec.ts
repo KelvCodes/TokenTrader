@@ -1,5 +1,4 @@
 
-    const reserves = await pair.getReserves()
     expect(reserves[0]).to.eq(token0Amount)
     expect(reserves[1]).to.eq(token1Amount)
   })
