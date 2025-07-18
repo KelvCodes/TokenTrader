@@ -1,5 +1,4 @@
- { expect } from 'chai'
-import { Contract } from 'ethers'
+ethers'
 import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
 import { BigNumber, bigNumberify } from 'ethers/utils'
 
