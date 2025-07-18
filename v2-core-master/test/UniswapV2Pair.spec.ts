@@ -1,7 +1,5 @@
 
-  let token1: Contract
-  let pair: Contract
-  beforeEach(async () => {
+  let {
     const fixture = await loadFixture(pairFixture)
     factory = fixture.factory
     token0 = fixture.token0
