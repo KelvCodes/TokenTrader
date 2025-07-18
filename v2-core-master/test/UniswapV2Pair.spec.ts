@@ -1,6 +1,4 @@
-
-    it(`getInputPrice:${i}`, async () => {
-      const [swapAmount, token0Amount, token1Amount, expectedOutputAmount] = swapTestCase
+t, expectedOutputAmount] = swapTestCase
       await addLiquidity(token0Amount, token1Amount)
       await token0.transfer(pair.address, swapAmount)
       await expect(pair.swap(0, expectedOutputAmount.add(1), wallet.address, '0x', overrides)).to.be.revertedWith(
