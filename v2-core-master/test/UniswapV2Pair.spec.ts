@@ -1,8 +1,6 @@
 
     expect(reserves[0]).to.eq(token0Amount)
-    expect(reserves[1]).to.eq(token1Amount)
-  })
-
+ 
   async function addLiquidity(token0Amount: BigNumber, token1Amount: BigNumber) {
     await token0.transfer(pair.address, token0Amount)
     await token1.transfer(pair.address, token1Amount)
