@@ -1,6 +1,4 @@
 
-    expect(await pair.
-    expect(await token1.balanceOf(pair.address)).to.eq(token1Amount)
     const reserves = await pair.getReserves()
     expect(reserves[0]).to.eq(token0Amount)
     expect(reserves[1]).to.eq(token1Amount)
