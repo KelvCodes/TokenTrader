@@ -1,7 +1,6 @@
 )
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
-      .to.emit(pair, 'Transfer')
-      .withArgs(AddressZero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
+      .to.emt.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
       .to.emit(pair, 'Sync')
       .withArgs(token0Amount, token1Amount)
       .to.emit(pair, 'Mint')
