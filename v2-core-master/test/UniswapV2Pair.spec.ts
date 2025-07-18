@@ -1,7 +1,4 @@
-token1Amount)
-    await pair.mint(wallet.address, overrides)
-  }
-  const swapTestCases: BigNumber[][] = [
+pTestCases: BigNumber[][] = [
     [1, 5, 10, '1662497915624478906'],
     [1, 10, 5, '453305446940074565'],
 
