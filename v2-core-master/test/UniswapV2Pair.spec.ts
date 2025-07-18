@@ -1,7 +1,4 @@
 
-    token1 = fixture.token1
-    pair = fixture.pair
-  })
 
   it('mint', async () => {
     const token0Amount = expandTo18Decimals(1)
