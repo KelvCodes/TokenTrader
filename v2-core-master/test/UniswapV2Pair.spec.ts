@@ -1,7 +1,5 @@
 
 
-  it('mint', async () => {
-    const token0Amount = expandTo18Decimals(1)
     const token1Amount = expandTo18Decimals(4)
     await token0.transfer(pair.address, token0Amount)
     await token1.transfer(pair.address, token1Amount)
