@@ -1,7 +1,4 @@
-
-  })
-  const [wallet, other] = provider.getWallets()
-  const loadFixture = createFixtureLoader(provider, [wallet])
+)
 
   let factory: Contract
   let token0: Contract
