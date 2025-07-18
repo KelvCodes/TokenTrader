@@ -1,8 +1,3 @@
-)
-
-const overrides = {
-  gasLimit: 9999999
-}
 
 describe('UniswapV2Pair', () => {
   const provider = new MockProvider({
