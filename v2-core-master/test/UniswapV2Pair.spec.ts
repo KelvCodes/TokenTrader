@@ -1,7 +1,4 @@
-ineBlocd/utilities'
-import { pairFixture om 'ethers/constants'
-
-const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
+ MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
 
 chai.use(solidity)
 
