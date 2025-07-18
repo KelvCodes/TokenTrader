@@ -1,4 +1,4 @@
-ineBlock, encodePrice } from './shared/utilities'
+ineBlocd/utilities'
 import { pairFixture } from './shared/fixtures'
 import { AddressZero } from 'ethers/constants'
 
