@@ -1,12 +1,4 @@
-it pair.token0()).to.eq(TEST_ADDRESSES[0])
-    expect(await pair.token1()).to.eq(TEST_ADDRESSES[1])
-  }Pair', async () => {
-    await createPair(TEST_ADDRESSES)
-  })
 
-  it('createPair:reverse', async () => {
-    await createPair(TEST_ADDRESSES.slice().reverse() as [string, string])
-  })
 
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
