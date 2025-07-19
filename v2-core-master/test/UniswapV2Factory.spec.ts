@@ -1,5 +1,3 @@
-drto.eq(0)
-  })
 
   async function createPair(tokens: [string, string]) {
     const bytecode = `0x${UniswapV2Pair.evm.bytecode.object}`
