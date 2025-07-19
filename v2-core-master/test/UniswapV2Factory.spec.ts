@@ -1,4 +1,4 @@
-orn horn horn',
+orn hor
     gasLimit: 9999999
   })
   const [wallet, other] = provider.getWallets()
