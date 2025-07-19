@@ -1,5 +1,4 @@
 
-imr from '../build/UniswapV2Pair.json'
 
 chai.use(solidity)
 
