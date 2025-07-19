@@ -1,4 +1,4 @@
-torSetter()).to.eq(wallet.addrto.eq(0)
+)).to.eq(wallet.addrto.eq(0)
   })
 
   async function createPair(tokens: [string, string]) {
