@@ -1,6 +1,4 @@
-orn hor
-    gasLimit: 9999999
-  })
+
   const [wallet, other] = provider.getWallets()
   const loadFixture = createFixtureLoader(provider, [wallet, other])
 
