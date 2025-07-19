@@ -1,5 +1,4 @@
-e2Addrimport { factoryFixture } from './shared/fixtures'
-
+e2Addrimport { factoryFi
 import UniswapV2Pair from '../build/UniswapV2Pair.json'
 
 chai.use(solidity)
