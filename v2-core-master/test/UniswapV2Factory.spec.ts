@@ -1,8 +1,4 @@
 { Contract } from 'ethers'
-import { AddressZero } from 'ethers/constants'
-import { bigNumberify } from 'ethers/utils'
-import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
-
 import { getCreate2Address } from './shared/utilities'
 import { factoryFixture } from './shared/fixtures'
 
