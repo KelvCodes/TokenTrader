@@ -1,5 +1,4 @@
-tory.feeToSetter()).to.eq(wallet.address)
-    expect(await factory.allPairsLength()).to.eq(0)
+tory.feeToSetter()).to.eq(wallet.addrto.eq(0)
   })
 
   async function createPair(tokens: [string, string]) {
