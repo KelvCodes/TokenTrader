@@ -1,5 +1,5 @@
 
-import UniswapV2Pair from '../build/UniswapV2Pair.json'
+imr from '../build/UniswapV2Pair.json'
 
 chai.use(solidity)
 
