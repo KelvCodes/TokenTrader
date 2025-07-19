@@ -1,5 +1,4 @@
-ixture)
-    factory = fixture.factory
+tory = fixture.factory
   })
 
   it('feeTo, feeToSetter, allPairsLength', async () => {
