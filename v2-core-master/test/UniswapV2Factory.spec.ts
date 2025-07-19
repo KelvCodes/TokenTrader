@@ -1,6 +1,6 @@
 
 
-chai.use(solidity)
+chai
 
 const TEST_ADDRESSES: [string, string] = [
   '0x1000000000000000000000000000000000000000',
