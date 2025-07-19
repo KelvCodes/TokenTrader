@@ -1,5 +1,4 @@
-sync () => {
-    expect(await factory.feeTo()).to.eq(AddressZero)
+wait factory.feeTo()).to.eq(AddressZero)
     expect(await factory.feeToSetter()).to.eq(wallet.address)
     expect(await factory.allPairsLength()).to.eq(0)
   })
