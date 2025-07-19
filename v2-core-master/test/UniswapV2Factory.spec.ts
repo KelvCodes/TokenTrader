@@ -1,6 +1,4 @@
-
-  const [wallet, other] = provider.getWallets()
-  const loadFixture = createFixtureLoader(provider, [wallet, other])
+oader(provider, [wallet, other])
 
   let factory: Contract
   beforeEach(async () => {
