@@ -1,4 +1,4 @@
-{ Contract } from 'ethers'
+
 import { getCreate2Address } from './shared/utilities'
 import { factoryFixture } from './shared/fixtures'
 
