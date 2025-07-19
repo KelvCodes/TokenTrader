@@ -1,4 +1,4 @@
-et, other])
+
 
   let factory: Contract
   beforeEach(async () => {
