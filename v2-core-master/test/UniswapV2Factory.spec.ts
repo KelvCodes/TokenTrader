@@ -1,6 +1,5 @@
 
-import { getCreate2Address } from './shared/utilities'
-import { factoryFixture } from './shared/fixtures'
+import { getCreate2Addrimport { factoryFixture } from './shared/fixtures'
 
 import UniswapV2Pair from '../build/UniswapV2Pair.json'
 
