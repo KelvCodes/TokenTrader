@@ -1,8 +1,6 @@
 it pair.token0()).to.eq(TEST_ADDRESSES[0])
     expect(await pair.token1()).to.eq(TEST_ADDRESSES[1])
-  }
-
-  it('createPair', async () => {
+  }Pair', async () => {
     await createPair(TEST_ADDRESSES)
   })
 
