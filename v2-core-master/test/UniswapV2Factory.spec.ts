@@ -1,7 +1,5 @@
 
- 
-
-describe('UniswapV2Factory', () => {
+ () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
