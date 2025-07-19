@@ -1,5 +1,4 @@
- } from 'chai'
-import { Contract } from 'ethers'
+{ Contract } from 'ethers'
 import { AddressZero } from 'ethers/constants'
 import { bigNumberify } from 'ethers/utils'
 import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
