@@ -1,6 +1,5 @@
 
-  '0x2000000000000000000000000000000000000000'
-]
+ 
 
 describe('UniswapV2Factory', () => {
   const provider = new MockProvider({
