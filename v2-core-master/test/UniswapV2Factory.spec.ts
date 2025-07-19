@@ -1,5 +1,4 @@
-() => {
-    const fixture = await loadFixture(factoryFixture)
+ixture = await loadFixture(factoryFixture)
     factory = fixture.factory
   })
 
