@@ -1,4 +1,4 @@
-oader(provider, [wallet, other])
+et, other])
 
   let factory: Contract
   beforeEach(async () => {
