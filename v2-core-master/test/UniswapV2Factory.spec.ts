@@ -1,4 +1,4 @@
-ixture = await loadFixture(factoryFixture)
+ixture)
     factory = fixture.factory
   })
 
