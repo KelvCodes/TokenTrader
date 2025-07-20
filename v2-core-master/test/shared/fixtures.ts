@@ -1,6 +1,4 @@
-/UniswapV2Pair.json'
 
-interface FactoryFixture {
   factory: Contract
 }
 
