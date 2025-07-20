@@ -1,7 +1,5 @@
 
 
-  pair: Contract
-}
 
 export async function pairFixture(provider: Web3Provider, [wallet]: Wallet[]): Promise<PairFixture> {
   const { factory } = await factoryFixture(provider, [wallet])
