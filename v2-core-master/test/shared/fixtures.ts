@@ -1,4 +1,4 @@
-allet, ERC20, [expandTo18Decimals(10000)], overrides)
+pandTo18Decimals(10000)], overrides)
   const tokenB = await deployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
 
   await factory.createPair(tokenA.address, tokenB.address, overrides)
