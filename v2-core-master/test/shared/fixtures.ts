@@ -1,5 +1,4 @@
 
-import { Web3Provider } from 'ethers/providers'
 import { deployContract } from 'ethereum-waffle'
 
 import { expandTo18Decimals } from './utilities'
