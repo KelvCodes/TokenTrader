@@ -1,4 +1,4 @@
-wait deployContrUniswapV2Factory, [wallet.address], overrides)
+.address], overrides)
   return { factory }
 }
 
