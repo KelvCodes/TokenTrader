@@ -1,5 +1,5 @@
 
- extends FactoryFixture {
+
   token0: Contract
   token1: Contract
   pair: Contract
