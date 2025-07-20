@@ -1,6 +1,5 @@
 
 
-import { expandTo18Decimals } from './utilities'
 
 import ERC20 from '../../build/ERC20.json'
 import UniswapV2Factory from '../../build/UniswapV2Factory.json'
