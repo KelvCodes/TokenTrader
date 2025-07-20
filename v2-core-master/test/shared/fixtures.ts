@@ -1,5 +1,4 @@
-
-  await factory.createPair(tokenA.address, tokenB.address, overrides)
+okenA.address, tokenB.address, overrides)
   const pairAddress = await factory.getPair(tokenA.address, tokenB.address)
   const pair = new Contract(pairAddress, JSON.stringify(UniswapV2Pair.abi), provider).connect(wallet)
 
