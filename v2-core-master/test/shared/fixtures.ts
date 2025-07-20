@@ -1,4 +1,4 @@
-./build/UniswapV2Factory.json'
+
 import UniswapV2Pair from '../../build/UniswapV2Pair.json'
 
 interface FactoryFixture {
