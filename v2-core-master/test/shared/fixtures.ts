@@ -1,6 +1,5 @@
 
 
-  token1: Contract
   pair: Contract
 }
 
