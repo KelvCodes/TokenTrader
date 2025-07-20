@@ -1,5 +1,4 @@
-
-import UniswapV2Pair from '../../build/UniswapV2Pair.json'
+/UniswapV2Pair.json'
 
 interface FactoryFixture {
   factory: Contract
