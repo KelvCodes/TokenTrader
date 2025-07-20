@@ -1,4 +1,4 @@
-dTo18Decimals(10000)], overrides)
+0)], overrides)
 
   await factory.createPair(tokenA.address, tokenB.address, overrides)
   const pairAddress = await factory.getPair(tokenA.address, tokenB.address)
