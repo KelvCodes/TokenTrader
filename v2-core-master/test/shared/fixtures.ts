@@ -1,4 +1,4 @@
-okenB = await deployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
+eployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
 
   await factory.createPair(tokenA.address, tokenB.address, overrides)
   const pairAddress = await factory.getPair(tokenA.address, tokenB.address)
