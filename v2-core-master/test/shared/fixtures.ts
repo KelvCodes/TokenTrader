@@ -1,8 +1,4 @@
-
-  factory: Contract
-}
-
-const overrides = {
+ides = {
   gasLimit: 9999999
 }
 
