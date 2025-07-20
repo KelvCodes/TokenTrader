@@ -1,6 +1,4 @@
 
-  return { factory }
-}
 
 interface PairFixture extends FactoryFixture {
   token0: Contract
