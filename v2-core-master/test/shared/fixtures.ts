@@ -1,5 +1,4 @@
-
-  const pairAddress = await factory.getPair(tokenA.address, tokenB.address)
+ctory.getPair(tokenA.address, tokenB.address)
   const pair = new Contract(pairAddress, JSON.stringify(UniswapV2Pair.abi), provider).connect(wallet)
 
   const token0Address = (await pair.token0()).address
