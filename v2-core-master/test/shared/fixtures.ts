@@ -1,4 +1,4 @@
-wait deployContract(wallet, UniswapV2Factory, [wallet.address], overrides)
+wait deployContrUniswapV2Factory, [wallet.address], overrides)
   return { factory }
 }
 
