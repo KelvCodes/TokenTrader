@@ -1,4 +1,4 @@
-import { Contract, Wallet } from 'ethers'
+it { Contract, Wallet } from 'ethers'
 import { Web3Provider } from 'ethers/providers'
 import { deployContract } from 'ethereum-waffle'
 
