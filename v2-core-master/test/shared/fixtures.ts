@@ -1,5 +1,4 @@
-
-(pairAddress, JSON.stringify(UniswapV2Pair.abi), provider).connect(wallet)
+pV2Pair.abi), provider).connect(wallet)
 ctory.getPair(t
   const token0Address = (await pair.token0()).address
   const token0 = tokenA.address === token0Address ? tokenA : tokenB
