@@ -1,6 +1,4 @@
 
-
-llet[]): Promise<PairFixture> {
   const { factory } = await factoryFixture(provider, [wallet])
 
   const tokenA = await deployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
