@@ -1,5 +1,4 @@
 
-import { deployContract } from 'ethereum-waffle'
 
 import { expandTo18Decimals } from './utilities'
 
