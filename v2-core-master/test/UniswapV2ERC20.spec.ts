@@ -1,6 +1,4 @@
-transferFrom', async () => {
-    await token.approve(other.address, TEST_AMOUNT)
-    await expect(token.connect(other).transferFrom(wallet.address, other.address, TEST_AMOUNT))
+et.address, other.address, TEST_AMOUNT))
       .to.emit(token, 'Transfer')
       .withArgs(wallet.address, other.address, TEST_AMOUNT)
     expect(await token.allowance(wallet.address, other.address)).to.eq(0)
