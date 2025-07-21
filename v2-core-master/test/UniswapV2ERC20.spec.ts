@@ -1,4 +1,4 @@
- token: Contract
+
   beforeEach(async () => {
     token = await deployContract(wallet, ERC20, [TOTAL_SUPPLY])
   })
