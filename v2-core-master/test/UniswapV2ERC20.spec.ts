@@ -1,4 +1,4 @@
- } from 'chai'
+ } 
 import { Contract } from 'ethers'
 import { MaxUint256 } from 'ethers/constants'
 import { bigNumberify, hexlify, keccak256, defaultAbiCoder, toUtf8Bytes } from 'ethers/utils'
