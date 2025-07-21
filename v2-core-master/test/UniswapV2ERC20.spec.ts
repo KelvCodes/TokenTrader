@@ -1,6 +1,5 @@
 
 
-describe('UniswapV2ERC20', () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
