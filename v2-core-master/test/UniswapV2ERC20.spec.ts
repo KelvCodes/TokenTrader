@@ -1,5 +1,4 @@
 
-    const name = await token.name()
     expect(name).to.eq('Uniswap V2')
     expect(await token.symbol()).to.eq('UNI-V2')
     expect(await token.decimals()).to.eq(18)
