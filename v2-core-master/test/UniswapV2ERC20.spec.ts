@@ -1,9 +1,6 @@
 
   
 
-        defaultAbiCoder.encode(
-          ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
-          [
             keccak256(
               toUtf8Bytes('EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)')
             ),
