@@ -1,6 +1,5 @@
 
-v
-import ERC20 from '../build/ERC20.json'
+./build/ERC20.json'
 
 chai.use(solidity)
 
