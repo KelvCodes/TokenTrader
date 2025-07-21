@@ -1,8 +1,5 @@
 
-  
- t(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)'))
-    )
-  })
+
 
   it('approve', async () => {
     await expect(token.approve(other.address, TEST_AMOUNT))
