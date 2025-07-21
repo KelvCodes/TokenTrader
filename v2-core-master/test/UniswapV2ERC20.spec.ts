@@ -1,5 +1,4 @@
-et.address, other.address, TEST_AMOUNT))
-      .to.emit(token, 'Transfer')
+
       .withArgs(wallet.address, other.address, TEST_AMOUNT)
     expect(await token.allowance(wallet.address, other.address)).to.eq(0)
     expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
