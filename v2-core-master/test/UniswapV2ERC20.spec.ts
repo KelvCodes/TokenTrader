@@ -1,6 +1,5 @@
 
-
-import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
+valDigest } from './shared/utilities'
 
 import ERC20 from '../build/ERC20.json'
 
