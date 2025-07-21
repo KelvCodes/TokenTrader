@@ -1,6 +1,4 @@
-s)).to.eq(TEST_AMOUNT)
-  })
-
+s
   it('transfer', async () => {
     await expect(token.transfer(other.address, TEST_AMOUNT))
       .to.emit(token, 'Transfer')
