@@ -1,4 +1,4 @@
-ployContract } from 'ethereum-waffle'
+
 import { ecsign } from 'ethereumjs-util'
 
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
