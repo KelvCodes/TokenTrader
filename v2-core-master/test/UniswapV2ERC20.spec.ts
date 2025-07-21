@@ -1,6 +1,5 @@
 
-  })
-  const [wallet, other] = provider.getWallets()
+getWallets()
 
   let token: Contract
   beforeEach(async () => {
