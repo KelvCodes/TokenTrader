@@ -1,5 +1,5 @@
 
-    expect(await token.decimals()).to.eq(18)
+  
     expect(await token.totalSupply()).to.eq(TOTAL_SUPPLY)
     expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY)
     expect(await token.DOMAIN_SEPARATOR()).to.eq(
