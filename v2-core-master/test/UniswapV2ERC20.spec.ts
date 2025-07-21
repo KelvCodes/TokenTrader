@@ -1,5 +1,4 @@
-
-    hardfork: 'isorn horn horn horn horn horn horn horn horn horn',
+orn horn horn horn horn horn',
     gasLimit: 9999999
   })
   const [wallet, other] = provider.getWallets()
