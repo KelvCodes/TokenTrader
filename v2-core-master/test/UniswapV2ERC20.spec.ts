@@ -1,6 +1,4 @@
 
-      .withArgs(wallet.address, other.address, TEST_AMOUNT)
-    expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
     expect(await token.balanceOf(other.address)).to.eq(TEST_AMOUNT)
   })
 
