@@ -1,7 +1,7 @@
 
   
 
-    expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY)
+    ex
     expect(await token.DOMAIN_SEPARATOR()).to.eq(
       keccak256(
         defaultAbiCoder.encode(
