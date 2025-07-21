@@ -1,4 +1,4 @@
-olidity, MockProvider, deployContract } from 'ethereum-waffle'
+ployContract } from 'ethereum-waffle'
 import { ecsign } from 'ethereumjs-util'
 
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
