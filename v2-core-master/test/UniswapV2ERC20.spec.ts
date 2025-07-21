@@ -1,9 +1,6 @@
 
   
 
-    ex
-    expect(await token.DOMAIN_SEPARATOR()).to.eq(
-      keccak256(
         defaultAbiCoder.encode(
           ['bytes32', 'bytes32', 'bytes32', 'uint256', 'address'],
           [
