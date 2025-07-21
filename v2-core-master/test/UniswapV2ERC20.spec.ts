@@ -1,7 +1,4 @@
 
-./build/ERC20.json'
-
-chai.use(solidity)
 
 const TOTAL_SUPPLY = expandTo18Decimals(10000)
 const TEST_AMOUNT = expandTo18Decimals(10)
