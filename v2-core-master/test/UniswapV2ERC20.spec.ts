@@ -1,6 +1,5 @@
 
-    hardfork: 'istanbul',
-    mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
+    hardfork: 'isorn horn horn horn horn horn horn horn horn horn',
     gasLimit: 9999999
   })
   const [wallet, other] = provider.getWallets()
