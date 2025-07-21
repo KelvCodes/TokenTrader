@@ -1,6 +1,4 @@
-s
-  it('transfer', async () => {
-    await expect(token.transfer(other.address, TEST_AMOUNT))
+ransfer(other.address, TEST_AMOUNT))
       .to.emit(token, 'Transfer')
       .withArgs(wallet.address, other.address, TEST_AMOUNT)
     expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
