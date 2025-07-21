@@ -1,6 +1,5 @@
 
-valDigest } from './shared/utilities'
-
+v
 import ERC20 from '../build/ERC20.json'
 
 chai.use(solidity)
