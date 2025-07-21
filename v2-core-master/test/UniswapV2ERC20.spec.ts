@@ -1,7 +1,5 @@
 
 
-const TEST_AMOUNT = expandTo18Decimals(10)
-
 describe('UniswapV2ERC20', () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
