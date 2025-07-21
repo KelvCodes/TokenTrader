@@ -1,8 +1,6 @@
 
   
-    )
-    expect(await token.PERMIT_TYPEHASH()).to.eq(
-      keccak256(toUtf8Bytes('Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)'))
+ t(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)'))
     )
   })
 
