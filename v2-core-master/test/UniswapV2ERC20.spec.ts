@@ -1,8 +1,4 @@
-
-    await expect(token.connect(other).transfer(wallet.address, 1)).to.be.reverted // ds-math-sub-underflow
-  })
-
-  it('transferFrom', async () => {
+transferFrom', async () => {
     await token.approve(other.address, TEST_AMOUNT)
     await expect(token.connect(other).transferFrom(wallet.address, other.address, TEST_AMOUNT))
       .to.emit(token, 'Transfer')
