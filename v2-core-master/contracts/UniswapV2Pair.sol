@@ -1,4 +1,3 @@
-mpLast; // uses single storage slot, accessible via getReserves
 
     uint public price0CumulativeLast;
     uint public price1CumulativeLast;
