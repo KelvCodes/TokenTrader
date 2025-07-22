@@ -1,5 +1,4 @@
-e returns (bool feeOn) {
-        address feeTo = IUniswapV2Factory(factory).feeTo();
+niswapV2Factory(factory).feeTo();
         feeOn = feeTo != address(0);
         uint _kLast = kLast; // gas savings
         if (feeOn) {
