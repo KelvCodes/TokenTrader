@@ -1,6 +1,4 @@
 
-    using UQ112x112 for uint224;
-
     uint public constant MINIMUM_LIQUIDITY = 10**3;
     bytes4 private constant SELECTOR = bytes4(keccak256(bytes('transfer(address,uint256)')));
 
