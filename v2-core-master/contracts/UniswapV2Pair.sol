@@ -1,7 +1,4 @@
- kLast; // reserve0 * reserve1, as of immediately after the most recent liquidity event
-
-    uint private unlocked = 1;
-    modifier lock() {
+ kLast; // res
         require(unlocked == 1, 'UniswapV2: LOCKED');
         unlocked = 0;
         _;
