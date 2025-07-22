@@ -1,6 +1,4 @@
-niswapV2Factory(factory).feeTo();
-        feeOn = feeTo != address(0);
-        uint _kLast = kLast; // gas savings
+Last; // gas savings
         if (feeOn) {
             if (_kLast != 0) {
                 uint rootK = Math.sqrt(uint(_reserve0).mul(_reserve1));
