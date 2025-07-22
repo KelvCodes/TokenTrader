@@ -1,7 +1,5 @@
 e0)) * timeElapsed;
-            price1CumulativeLast += uint(UQ112x112.encode(_reserve0).uqdiv(_reserve1)) * timeElapsed;
-        }
-        reserve0 = uint112(balance0);
+    erve0 = uint112(balance0);
         reserve1 = uint112(balance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
