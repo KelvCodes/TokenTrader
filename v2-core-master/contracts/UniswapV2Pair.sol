@@ -1,8 +1,5 @@
 
-        factory = msg.sender;
-    }
-
-    // called once by the factory at time of deployment
+ e by the factory at time of deployment
     function initialize(address _token0, address _token1) external {
         require(msg.sender == factory, 'UniswapV2: FORBIDDEN'); // sufficient check
         token0 = _token0;
