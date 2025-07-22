@@ -1,4 +1,4 @@
-        // uses single storage slot, accessible via getReserves
+ble via getReserves
     uint32  private blockTimestampLast; // uses single storage slot, accessible via getReserves
 
     uint public price0CumulativeLast;
