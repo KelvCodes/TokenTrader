@@ -1,6 +1,4 @@
- kLast; // res
-        r
-        unlocked = 1;
+;
     }
 
     function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast) {
