@@ -1,5 +1,4 @@
 
-import './interfaces/IERC20.sol';
 import './interfaces/IUniswapV2Factory.sol';
 import './interfaces/IUniswapV2Callee.sol';
 
