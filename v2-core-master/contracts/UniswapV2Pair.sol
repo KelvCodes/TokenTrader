@@ -1,5 +1,4 @@
-ble via getReserves
-    uint32  private blockTimestampLast; // uses single storage slot, accessible via getReserves
+mpLast; // uses single storage slot, accessible via getReserves
 
     uint public price0CumulativeLast;
     uint public price1CumulativeLast;
