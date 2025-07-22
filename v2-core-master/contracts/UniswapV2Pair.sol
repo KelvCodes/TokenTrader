@@ -1,5 +1,4 @@
-;
-    uint public kLast; // reserve0 * reserve1, as of immediately after the most recent liquidity event
+ kLast; // reserve0 * reserve1, as of immediately after the most recent liquidity event
 
     uint private unlocked = 1;
     modifier lock() {
