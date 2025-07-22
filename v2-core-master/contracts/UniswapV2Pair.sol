@@ -1,7 +1,5 @@
 
 ;
-    address public token0;
-    address public token1;
 
     uint112 private reserve0;           // uses single storage slot, accessible via getReserves
     uint112 private reserve1;           // uses single storage slot, accessible via getReserves
