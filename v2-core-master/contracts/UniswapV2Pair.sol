@@ -1,6 +1,4 @@
-
-    uint public price0CumulativeLast;
-    uint public price1CumulativeLast;
+;
     uint public kLast; // reserve0 * reserve1, as of immediately after the most recent liquidity event
 
     uint private unlocked = 1;
