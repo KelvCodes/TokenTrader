@@ -1,6 +1,5 @@
 
-    uint public constant MINIMUM_LIQUIDITY = 10**3;
-    bytes4 private constant SELECTOR = bytes4(keccak256(bytes('transfer(address,uint256)')));
+    uint public constant MINIMUMytes('transfer(address,uint256)')));
 
     address public factory;
     address public token0;
