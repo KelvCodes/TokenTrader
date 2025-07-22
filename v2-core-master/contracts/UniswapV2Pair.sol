@@ -1,6 +1,4 @@
 
-        uint amount1Out,
-       
     event Sync(uint112 reserve0, uint112 reserve1);
 
     constructor() public {
