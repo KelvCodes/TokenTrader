@@ -1,6 +1,4 @@
 
-    uint public constant MINIMUMytes('transfer(address,uint256)')));
-
     address public factory;
     address public token0;
     address public token1;
