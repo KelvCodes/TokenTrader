@@ -1,5 +1,4 @@
 
-    using SafeMath  for uint;
     using UQ112x112 for uint224;
 
     uint public constant MINIMUM_LIQUIDITY = 10**3;
