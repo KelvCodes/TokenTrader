@@ -1,5 +1,4 @@
 
-import './interfaces/IUniswapV2Factory.sol';
 import './interfaces/IUniswapV2Callee.sol';
 
 contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
