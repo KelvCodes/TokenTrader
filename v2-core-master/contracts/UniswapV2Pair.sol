@@ -1,7 +1,5 @@
  kLast; // res
-        require(unlocked == 1, 'UniswapV2: LOCKED');
-        unlocked = 0;
-        _;
+        r
         unlocked = 1;
     }
 
