@@ -1,5 +1,4 @@
-
-        require(msg.sender == factory, 'UniswapV2: FORBIDDEN'); // sufficient check
+ficient check
         token0 = _token0;
         token1 = _token1;
     }
