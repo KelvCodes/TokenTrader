@@ -1,4 +1,4 @@
-okenB) external returns (address pair);
+ernal returns (address pair);
 
     function setFeeTo(address) external;
     function setFeeToSetter(address) external;
