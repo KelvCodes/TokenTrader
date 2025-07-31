@@ -1,4 +1,4 @@
- returns (address pair);
+pair);
     function allPairs(uint) external view returns (address pair);
     function allPairsLength() external view returns (uint);
 
