@@ -1,4 +1,4 @@
- external view returns (uint);
+returns (uint);
 
     function createPair(address tokenA, address tokenB) external returns (address pair);
 
