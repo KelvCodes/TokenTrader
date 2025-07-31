@@ -1,5 +1,3 @@
-
-
-    function setFeeTo(address) external;
+ setFeeTo(address) external;
     function setFeeToSetter(address) external;
 }
