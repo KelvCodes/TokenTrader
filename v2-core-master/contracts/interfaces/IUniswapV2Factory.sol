@@ -1,5 +1,4 @@
-
-r() external view returns (address);
+ernal view returns (address);
 
     function getPair(address tokenA, address tokenB) external view returns (address pair);
     function allPairs(uint) external view returns (address pair);
