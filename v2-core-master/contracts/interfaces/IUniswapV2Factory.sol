@@ -1,4 +1,4 @@
-ernal returns (address pair);
+returns (address pair);
 
     function setFeeTo(address) external;
     function setFeeToSetter(address) external;
