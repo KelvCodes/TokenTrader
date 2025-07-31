@@ -1,5 +1,4 @@
-token1, address pair, uint);
-
+token1,
     function feeTo() external view returns (address);
     function feeToSetter() external view returns (address);
 
