@@ -1,3 +1,3 @@
- ddress) external;
+xternal;
     function setFeeToSetter(address) external;
 }
