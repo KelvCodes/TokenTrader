@@ -1,8 +1,4 @@
-sfer(pair.addr
-    const expectedLiquidity = expandTo18Decimals(2)
-
-    // Call mint function and validate emitted events
-    await expect(pair.mint(wallet.address, overrides))
+sfer(pr.mint(wallet.address, overrides))
       .to.emit(pair, 'Transfer')
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
       .to.emit(pair, 'Transfer')
