@@ -1,7 +1,5 @@
 from 'ethers/utils'
-
-import { expandTo18Decimals, mineBlock, encodePrice } from './shared/utilities'
-import { pairFixture } from './shared/fixtures'
+{ pairFixture } from './shared/fixtures'
 import { AddressZero } from 'ethers/constants'
 
 // Define minimum liquidity value (10^3)
