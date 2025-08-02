@@ -1,4 +1,4 @@
-loadFixture = createFixtureLoader(provider, [wallet])
+oader(provider, [wallet])
 
   // Declare contract references
   let factory: Contract
