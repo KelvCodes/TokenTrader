@@ -1,5 +1,4 @@
-lets()
-  const loadFixture = createFixtureLoader(provider, [wallet])
+loadFixture = createFixtureLoader(provider, [wallet])
 
   // Declare contract references
   let factory: Contract
