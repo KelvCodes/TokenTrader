@@ -1,5 +1,4 @@
-
-] = provider.getWallets()
+lets()
   const loadFixture = createFixtureLoader(provider, [wallet])
 
   // Declare contract references
