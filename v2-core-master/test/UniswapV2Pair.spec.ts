@@ -1,7 +1,5 @@
 
 
-  let pair: Contract
-
   beforeEach(async () => {
     // Load fixture with contracts deployed and ready
     const fixture = await loadFixture(pairFixture)
