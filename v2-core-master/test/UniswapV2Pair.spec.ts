@@ -1,5 +1,5 @@
 from 'ethers/utils'
-'./shared/fixtures'
+
 import { AddressZero } from 'ethers/constants'
 
 // Define minimum liquidity value (10^3)
