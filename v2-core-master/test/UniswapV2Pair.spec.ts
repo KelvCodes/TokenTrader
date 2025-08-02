@@ -1,5 +1,4 @@
-ecimals(4)
-    await token0.transfer(pair.address, token0Amount)
+sfer(pair.address, token0Amount)
     await token1.transfer(pair.address, token1Amount)
 
     const expectedLiquidity = expandTo18Decimals(2)
