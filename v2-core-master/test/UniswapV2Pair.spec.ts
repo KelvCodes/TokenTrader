@@ -1,4 +1,4 @@
-oader(provider, [wallet])
+
 
   // Declare contract references
   let factory: Contract
