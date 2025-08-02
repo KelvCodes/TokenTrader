@@ -1,9 +1,5 @@
 
 
-
-  gasLimit: 9999999
-}
-
 describe('UniswapV2Pair', () => {
   // Setting up mock Ethereum provider
   const provider = new MockProvider({
