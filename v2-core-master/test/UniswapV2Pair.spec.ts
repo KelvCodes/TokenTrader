@@ -1,5 +1,4 @@
-sfer(pr.mint(wallet.address, overrides))
-      .to.emit(pair, 'Transfer')
+
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
       .to.emit(pair, 'Transfer')
       .withArgs(AddressZero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
