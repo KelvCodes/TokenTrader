@@ -1,6 +1,4 @@
-')
-  
-      .withArgs(token0Amount, token1Amount)
+0Amount, token1Amount)
       .to.emit(pair, 'Mint')
       .withArgs(wallet.address, token0Amount, token1Amount)
 
