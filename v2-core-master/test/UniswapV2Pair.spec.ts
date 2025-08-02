@@ -1,7 +1,6 @@
 
 
-
-igNumberify(10).pow(3)
+)
 
 chai.use(solidity)
 
