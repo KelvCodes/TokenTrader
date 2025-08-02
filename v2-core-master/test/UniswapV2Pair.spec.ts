@@ -1,6 +1,5 @@
 
-s
-  let factory: Contract
+
   let token0: Contract
   let token1: Contract
   let pair: Contract
