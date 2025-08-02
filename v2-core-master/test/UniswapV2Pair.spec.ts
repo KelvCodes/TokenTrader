@@ -1,6 +1,5 @@
 
-
-  let token0: Contract
+t
   let token1: Contract
   let pair: Contract
 
