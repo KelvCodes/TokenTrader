@@ -1,6 +1,4 @@
-
-from 'ethers'
-import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
+idity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
 import { BigNumber, bigNumberify } from 'ethers/utils'
 
 import { expandTo18Decimals, mineBlock, encodePrice } from './shared/utilities'
