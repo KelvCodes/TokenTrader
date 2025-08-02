@@ -1,7 +1,7 @@
 
 
 
-// Define minimum liquidity value (10^3)
+
 const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
 
 chai.use(solidity)
