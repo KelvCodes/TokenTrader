@@ -1,7 +1,4 @@
 
-
-    toke
-    token1 = fixture.token1
     pair = fixture.pair
   })
 
