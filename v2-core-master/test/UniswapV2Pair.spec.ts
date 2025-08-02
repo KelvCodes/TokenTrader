@@ -1,8 +1,7 @@
 
 
 
-
-const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
+igNumberify(10).pow(3)
 
 chai.use(solidity)
 
