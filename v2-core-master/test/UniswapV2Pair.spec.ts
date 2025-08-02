@@ -1,6 +1,4 @@
 
-
-  beforeEach(async () => {
     // Load fixture with contracts deployed and ready
     const fixture = await loadFixture(pairFixture)
     factory = fixture.factory
