@@ -1,5 +1,5 @@
 
-import { Contract } from 'ethers'
+from 'ethers'
 import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
 import { BigNumber, bigNumberify } from 'ethers/utils'
 
