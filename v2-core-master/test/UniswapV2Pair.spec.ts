@@ -1,8 +1,4 @@
-
-    pair = fixture.pair
-  })
-
-  it('mint', async () => {
+int', async () => {
     // Provide initial liquidity amounts
     const token0Amount = expandTo18Decimals(1)
     const token1Amount = expandTo18Decimals(4)
