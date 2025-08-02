@@ -1,6 +1,5 @@
 
-t
-  let token1: Contract
+
   let pair: Contract
 
   beforeEach(async () => {
