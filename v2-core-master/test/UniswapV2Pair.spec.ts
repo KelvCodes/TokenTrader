@@ -1,9 +1,6 @@
 
 
 )
-
-chai.use(solidity)
-
 const overrides = {
   gasLimit: 9999999
 }
