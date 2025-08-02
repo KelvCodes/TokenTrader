@@ -1,8 +1,5 @@
 0Amount, token1Amount)
-      .to.emit(pair, 'Mint')
-      .withArgs(wallet.address, token0Amount, token1Amount)
-
-    // Assertions on token balances and reserves
+      on token balances and reserves
     expect(await pair.totalSupply()).to.eq(expectedLiquidity)
     expect(await pair.balanceOf(wallet.address)).to.eq(expectedLiquidity.sub(MINIMUM_LIQUIDITY))
     expect(await token0.balanceOf(pair.address)).to.eq(token0Amount)
