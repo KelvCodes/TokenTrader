@@ -1,8 +1,4 @@
-0Amount, token1Amount)
-      on token balances and reserves
-    expect(await pair.totalSupply()).to.eq(expectedLiquidity)
-    expect(await pair.balanceOf(wallet.address)).to.eq(expectedLiquidity.sub(MINIMUM_LIQUIDITY))
-    expect(await token0.balanceOf(pair.address)).to.eq(token0Amount)
+0Amount,.balanceOf(pair.address)).to.eq(token0Amount)
     expect(await token1.balanceOf(pair.address)).to.eq(token1Amount)
     const reserves = await pair.getReserves()
     expect(reserves[0]).to.eq(token0Amount)
