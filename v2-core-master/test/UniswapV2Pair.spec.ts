@@ -1,4 +1,3 @@
-from 'ethers/utils'
 
 import { AddressZero } from 'ethers/constants'
 
