@@ -1,6 +1,4 @@
-sfer(pair.address, token0Amount)
-    await token1.transfer(pair.address, token1Amount)
-
+sfer(pair.addr
     const expectedLiquidity = expandTo18Decimals(2)
 
     // Call mint function and validate emitted events
