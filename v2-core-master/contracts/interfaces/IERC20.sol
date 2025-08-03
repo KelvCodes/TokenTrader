@@ -1,4 +1,4 @@
- Transfer(address indexed from, address indexed to, uint value);
+(address indexed from, address indexed to, uint value);
 
     function name() external view returns (string memory);
     function symbol() external view returns (string memory);
