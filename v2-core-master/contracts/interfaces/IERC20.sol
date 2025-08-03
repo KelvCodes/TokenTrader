@@ -1,3 +1,3 @@
-
-    function transferFrom(address from, address to, uint value) external returns (bool);
+s
+ddress to, uint value) external returns (bool);
 }
