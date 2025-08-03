@@ -1,4 +1,4 @@
-ty >=0.5.0;
+.5.0;
 
 interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
