@@ -1,4 +1,4 @@
-view returns (string memory);
+(string memory);
     function symbol() external view returns (string memory);
     function decimals() external view returns (uint8);
     function totalSupply() external view returns (uint);
