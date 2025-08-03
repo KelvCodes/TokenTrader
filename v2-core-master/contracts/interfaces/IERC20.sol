@@ -1,4 +1,4 @@
-owner, address indexed spender, uint value);
+ress indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
 
     function name() external view returns (string memory);
