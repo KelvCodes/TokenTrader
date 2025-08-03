@@ -1,4 +1,4 @@
-ess spender) external view returns (uint);
+al view returns (uint);
 
     function approve(address spender, uint value) external returns (bool);
     function transfer(address to, uint value) external returns (bool);
