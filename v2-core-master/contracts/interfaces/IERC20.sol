@@ -1,3 +1,2 @@
-s
-ddress to, uint value) external returns (bool);
+ernal returns (bool);
 }
