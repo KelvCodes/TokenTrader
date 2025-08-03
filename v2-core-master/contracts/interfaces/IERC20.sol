@@ -1,4 +1,4 @@
-external view returns (uint8);
+
     function totalSupply() external view returns (uint);
     function balanceOf(address owner) external view returns (uint);
     function allowance(address owner, address spender) external view returns (uint);
