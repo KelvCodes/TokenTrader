@@ -1,5 +1,4 @@
-.json'
-import UniswapV2Pair from '../../build/UniswapV2Pair.json'
+.js./../build/UniswapV2Pair.json'
 
 // Interface for the factory fixture result
 interface FactoryFixture {
