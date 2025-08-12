@@ -1,4 +1,4 @@
-ontract } from 'ethereum-waffle'
+ffle'
 
 // Utility for scaling token amounts to 18 decimal places
 import { expandTo18Decimals } from './utilities'
