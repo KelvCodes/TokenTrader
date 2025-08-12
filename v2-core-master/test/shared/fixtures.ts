@@ -1,4 +1,4 @@
-caling token amounts to 18 decimal places
+unts to 18 decimal places
 import { expandTo18Decimals } from './utilities'
 
 // Import compiled contract ABIs and bytecode
