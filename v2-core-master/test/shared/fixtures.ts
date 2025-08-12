@@ -1,4 +1,4 @@
-ndTo18Decimals } from './utilities'
+/utilities'
 
 // Import compiled contract ABIs and bytecode
 import ERC20 from '../../build/ERC20.json'
