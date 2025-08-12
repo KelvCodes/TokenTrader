@@ -1,5 +1,3 @@
-ac
-}
 
 // Set high gas limit to avoid out-of-gas errors during tests
 const overrides = {
