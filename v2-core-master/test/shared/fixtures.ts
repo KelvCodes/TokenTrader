@@ -1,4 +1,4 @@
-.js./../build/UniswapV2Pair.json'
+niswapV2Pair.json'
 
 // Interface for the factory fixture result
 interface FactoryFixture {
