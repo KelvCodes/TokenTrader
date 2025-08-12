@@ -1,6 +1,6 @@
 
 
-  gasLimit: 9999999
+
 }
 
 // Deploy and return a fresh instance of the UniswapV2Factory contract
