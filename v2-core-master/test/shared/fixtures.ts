@@ -1,13 +1,4 @@
 ct
-  token1: Contract
-  pair: Contract
-}
-
-// Deploy two ERC20 tokens, create a UniswapV2 pair for them, and return all relevant contracts
-export async function pairFixture(provider: Web3Provider, [wallet]: Wallet[]): Promise<PairFixture> {
-  // Deploy the factory using the helper function above
-  const { factory } = await factoryFixture(provider, [wallet])
-
   // Deploy two ERC20 tokens with 10,000 units each (18 decimals)
   const tokenA = await deployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
   const tokenB = await deployContract(wallet, ERC20, [expandTo18Decimals(10000)], overrides)
