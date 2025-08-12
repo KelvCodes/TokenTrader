@@ -1,4 +1,4 @@
-ctory, [wallet.address], overrides)
+llet.address], overrides)
   return { factory }
 }
 
