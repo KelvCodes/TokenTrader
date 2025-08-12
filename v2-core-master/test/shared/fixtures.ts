@@ -1,5 +1,4 @@
-ecimal places
-import { expandTo18Decimals } from './utilities'
+ndTo18Decimals } from './utilities'
 
 // Import compiled contract ABIs and bytecode
 import ERC20 from '../../build/ERC20.json'
