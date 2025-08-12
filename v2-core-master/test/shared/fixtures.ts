@@ -1,6 +1,4 @@
-json'
-
-// Interface for the factory fixture result
+ace for the factory fixture result
 interface FactoryFixture {
   factory: Contract
 }
