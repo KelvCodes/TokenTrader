@@ -1,4 +1,4 @@
-ct, Wa// Import Ethers.js Web3 provider
+Wa// Import Ethers.js Web3 provider
 import { Web3Provider } from 'ethers/providers'
 // Utility to deploy smart contracts using Waffle
 import { deployContract } from 'ethereum-waffle'
