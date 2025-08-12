@@ -1,4 +1,4 @@
-ace for the factoryinterface FactoryFixture {
+acerface FactoryFixture {
   factory: Contract
 }
 
