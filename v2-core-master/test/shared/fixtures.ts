@@ -1,5 +1,4 @@
-urwallet]: Wallet[]): Promise<FactoryFixture> {
-  const factory = await deployContract(wallet, UniswapV2Factory, [wallet.address], overrides)
+eployContract(wallet, UniswapV2Factory, [wallet.address], overrides)
   return { factory }
 }
 
