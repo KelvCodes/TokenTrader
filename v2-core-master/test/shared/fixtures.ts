@@ -1,4 +1,4 @@
-t, UniswapV2Factory, [wallet.address], overrides)
+ctory, [wallet.address], overrides)
   return { factory }
 }
 
