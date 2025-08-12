@@ -1,10 +1,4 @@
-ove
-  return { factory }
-}
-
-// Interface for a complete pair fixture setup
-interface PairFixture extends FactoryFixture {
-  token0: Contract
+ct
   token1: Contract
   pair: Contract
 }
