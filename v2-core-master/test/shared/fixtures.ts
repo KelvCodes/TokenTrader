@@ -1,4 +1,4 @@
-t contracts using Waffle
+ Waffle
 import { deployContract } from 'ethereum-waffle'
 
 // Utility for scaling token amounts to 18 decimal places
