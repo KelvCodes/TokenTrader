@@ -1,5 +1,4 @@
-
-// Utility to deploy smart contracts using Waffle
+ploy smart contracts using Waffle
 import { deployContract } from 'ethereum-waffle'
 
 // Utility for scaling token amounts to 18 decimal places
