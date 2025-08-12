@@ -1,4 +1,4 @@
- Web3Provider } from 'ethers/providers'
+ider } from 'ethers/providers'
 // Utility to deploy smart contracts using Waffle
 import { deployContract } from 'ethereum-waffle'
 
