@@ -1,5 +1,4 @@
-ace for the factory fixture result
-interface FactoryFixture {
+ace for the factoryinterface FactoryFixture {
   factory: Contract
 }
 
