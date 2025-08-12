@@ -1,4 +1,4 @@
-unts to 18 decimal places
+ecimal places
 import { expandTo18Decimals } from './utilities'
 
 // Import compiled contract ABIs and bytecode
