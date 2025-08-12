@@ -1,4 +1,4 @@
-roviders'
+
 // Utility to deploy smart contracts using Waffle
 import { deployContract } from 'ethereum-waffle'
 
