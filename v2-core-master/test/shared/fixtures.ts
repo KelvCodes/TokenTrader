@@ -1,5 +1,4 @@
-// Import core Ethers.js types
-import { Contract, Wallet } from 'ethers'
+ Contract, Wallet } from 'ethers'
 // Import Ethers.js Web3 provider
 import { Web3Provider } from 'ethers/providers'
 // Utility to deploy smart contracts using Waffle
