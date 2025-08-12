@@ -1,5 +1,4 @@
- Waffle
-import { deployContract } from 'ethereum-waffle'
+ontract } from 'ethereum-waffle'
 
 // Utility for scaling token amounts to 18 decimal places
 import { expandTo18Decimals } from './utilities'
