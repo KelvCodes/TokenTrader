@@ -1,5 +1,4 @@
-acerface FactoryFixture {
-  factory: Contract
+ac
 }
 
 // Set high gas limit to avoid out-of-gas errors during tests
