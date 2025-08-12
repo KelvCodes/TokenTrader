@@ -1,4 +1,4 @@
-eployContract(wallet, UniswapV2Factory, [wallet.address], overrides)
+t, UniswapV2Factory, [wallet.address], overrides)
   return { factory }
 }
 
