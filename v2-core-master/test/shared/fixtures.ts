@@ -1,4 +1,4 @@
-ion factoryFixture(_: Web3Provider, [wallet]: Wallet[]): Promise<FactoryFixture> {
+ure(_: Web3Provider, [wallet]: Wallet[]): Promise<FactoryFixture> {
   const factory = await deployContract(wallet, UniswapV2Factory, [wallet.address], overrides)
   return { factory }
 }
