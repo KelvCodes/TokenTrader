@@ -1,6 +1,4 @@
 
-
-i t`.to.emit`, `.reverted`, etc.
 chai.use(solidity)
 
 // Constants used throughout the test suite
