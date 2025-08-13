@@ -1,5 +1,4 @@
-
-const TEST_AMOUNT = expandTo18Decimals(10) // 10 tokens with 18 decimals
+EST_AMOUNT = expandTo18Decimals(10) // 10 tokens with 18 decimals
 
 describe('UniswapV2ERC20', () => {
   // Create a mock Ethereum provider with Istanbul hardfork
