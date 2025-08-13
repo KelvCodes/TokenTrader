@@ -1,6 +1,5 @@
 
 
-// Constants used throughout the test suite
 const TOTAL_SUPPLY = expandTo18Decimals(10000) // 10,000 tokens with 18 decimals
 const TEST_AMOUNT = expandTo18Decimals(10) // 10 tokens with 18 decimals
 
