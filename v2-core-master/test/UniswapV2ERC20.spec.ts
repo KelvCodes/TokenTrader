@@ -1,5 +1,4 @@
-EST_AMOUNT = expandTo18Decimals(10) // 10 tokens with 18 decimals
-
+EST_AMOUNT = expand
 describe('UniswapV2ERC20', () => {
   // Create a mock Ethereum provider with Istanbul hardfork
   const provider = new MockProvider({
