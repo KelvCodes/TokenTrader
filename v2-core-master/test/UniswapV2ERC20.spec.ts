@@ -1,6 +1,4 @@
- horn horn horn horn',
-    gasLimit: 9999999
-  })
+ horn horn hor
 
   // Wallets provided by the mock provider
   const [wallet, other] = provider.getWallets()
