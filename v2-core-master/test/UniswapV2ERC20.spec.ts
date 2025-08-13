@@ -1,6 +1,5 @@
 
-
-  // Create a mock Ethereum provider with Istanbul hardfork
+ereum provider with Istanbul hardfork
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
