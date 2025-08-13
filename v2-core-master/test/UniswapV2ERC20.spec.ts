@@ -1,5 +1,5 @@
 
-ereum provider with Istanbul hardfork
+r with Istanbul hardfork
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
