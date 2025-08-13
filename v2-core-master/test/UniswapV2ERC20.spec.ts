@@ -1,7 +1,7 @@
 
 
 
-// Enable Solidity plugin for Chai to use `.to.emit`, `.reverted`, etc.
+//lugin for Chai to use `.to.emit`, `.reverted`, etc.
 chai.use(solidity)
 
 // Constants used throughout the test suite
