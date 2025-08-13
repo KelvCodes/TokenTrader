@@ -1,6 +1,6 @@
 
 import { solidity, MockProvider, deployContract } from 'ethereum-waffle'
-import { ecsign } from 'ethereumjs-util'
+ethereumjs-util'
 
 // Import shared utility functions for digest creation and value expansion
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
