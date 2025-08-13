@@ -1,6 +1,5 @@
 
 
-m '../build/ERC20.json'
 
 // Enable Solidity plugin for Chai to use `.to.emit`, `.reverted`, etc.
 chai.use(solidity)
