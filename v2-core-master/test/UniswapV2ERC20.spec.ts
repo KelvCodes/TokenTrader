@@ -1,4 +1,4 @@
-y, MockProvider, deployContract } from 'ethereum-waffle'
+, deployContract } from 'ethereum-waffle'
 ethereumjs-util'
 
 // Import shared utility functions for digest creation and value expansion
