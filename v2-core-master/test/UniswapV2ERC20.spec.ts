@@ -1,4 +1,4 @@
-t Chai for assertions and Ethers for contract interaction
+i for assertions and Ethers for contract interaction
 import chai, { expect } from 'chai'
 import { Contract } from 'ethers'
 import { MaxUint256 } from 'ethers/constants'
