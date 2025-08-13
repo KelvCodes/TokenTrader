@@ -1,4 +1,4 @@
-) // 10,000 tokens with 18 decimals
+) // th 18 decimals
 const TEST_AMOUNT = expandTo18Decimals(10) // 10 tokens with 18 decimals
 
 describe('UniswapV2ERC20', () => {
