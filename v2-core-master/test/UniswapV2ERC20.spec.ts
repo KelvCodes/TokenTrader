@@ -1,4 +1,4 @@
-, deployContract } ethereumjs-util'
+thereumjs-util'
 
 // Import shared utility functions for digest creation and value expansion
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
