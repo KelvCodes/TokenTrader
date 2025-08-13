@@ -1,5 +1,5 @@
 
-// Import the compiled ERC20 ABI
+iled ERC20 ABI
 import ERC20 from '../build/ERC20.json'
 
 // Enable Solidity plugin for Chai to use `.to.emit`, `.reverted`, etc.
