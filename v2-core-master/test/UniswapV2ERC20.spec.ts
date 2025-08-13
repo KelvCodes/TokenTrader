@@ -1,4 +1,4 @@
-EST_AMOUNT = expand
+
 describe('UniswapV2ERC20', () => {
   // Create a mock Ethereum provider with Istanbul hardfork
   const provider = new MockProvider({
