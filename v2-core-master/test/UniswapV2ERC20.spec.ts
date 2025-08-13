@@ -1,7 +1,6 @@
 
 
-// Import shared utility functions for digest creation and value expansion
-import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
+// Import shared utility functimport { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
 
 // Import the compiled ERC20 ABI
 import ERC20 from '../build/ERC20.json'
