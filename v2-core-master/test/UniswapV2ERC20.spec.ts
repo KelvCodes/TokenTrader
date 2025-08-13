@@ -1,6 +1,4 @@
-
-
-// Import shared utility functimport { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
+ utility functimport { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
 
 // Import the compiled ERC20 ABI
 import ERC20 from '../build/ERC20.json'
