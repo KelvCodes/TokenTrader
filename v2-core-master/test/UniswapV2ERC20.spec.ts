@@ -1,5 +1,4 @@
-, deployContract } from 'ethereum-waffle'
-ethereumjs-util'
+, deployContract } ethereumjs-util'
 
 // Import shared utility functions for digest creation and value expansion
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
