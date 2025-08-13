@@ -1,4 +1,4 @@
-ct interaction
+
 import chai, { expect } from 'chai'
 import { Contract } from 'ethers'
 import { MaxUint256 } from 'ethers/constants'
