@@ -1,5 +1,5 @@
 
-        require((z = x + y) >= x, 'ds-math-add-overflow');
+        r = x + y) >= x, 'ds-math-add-overflow');
     }
 
     function sub(uint x, uint y) internal pure returns (uint z) {
