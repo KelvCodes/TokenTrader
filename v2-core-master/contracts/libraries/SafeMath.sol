@@ -1,4 +1,4 @@
-y) internal pure returns (uint z) {
+nal pure returns (uint z) {
         require((z = x - y) <= x, 'ds-math-sub-underflow');
     }
 
