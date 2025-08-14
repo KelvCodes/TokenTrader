@@ -1,4 +1,4 @@
-github.com/dapphub/ds-math)
+.com/dapphub/ds-math)
 
 library SafeMath {
     function add(uint x, uint y) internal pure returns (uint z) {
