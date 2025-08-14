@@ -1,5 +1,4 @@
-
-        require((z = x - y) <= x, 'ds-math-sub-underflow');
+y) <= x, 'ds-math-sub-underflow');
     }
 
     function mul(uint x, uint y) internal pure returns (uint z) {
