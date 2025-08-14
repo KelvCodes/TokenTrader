@@ -1,4 +1,4 @@
-(uint z) {
+
         require((z = x - y) <= x, 'ds-math-sub-underflow');
     }
 
