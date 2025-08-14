@@ -1,4 +1,4 @@
-rnal pure returns (uint z) {
+rn returns (uint z) {
         require((z = x + y) >= x, 'ds-math-add-overflow');
     }
 
