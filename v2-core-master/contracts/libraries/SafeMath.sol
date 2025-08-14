@@ -1,4 +1,4 @@
-y) <= x, 'ds-math-sub-underflow');
+-math-sub-underflow');
     }
 
     function mul(uint x, uint y) internal pure returns (uint z) {
