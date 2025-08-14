@@ -1,4 +1,4 @@
-rnt z) {
+
         require((z = x + y) >= x, 'ds-math-add-overflow');
     }
 
