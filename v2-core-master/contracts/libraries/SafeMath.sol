@@ -1,5 +1,4 @@
-
-        r = x + y) >= x, 'ds-math-add-overflow');
+ y) >= x, 'ds-math-add-overflow');
     }
 
     function sub(uint x, uint y) internal pure returns (uint z) {
