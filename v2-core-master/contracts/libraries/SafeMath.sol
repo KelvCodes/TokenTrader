@@ -1,7 +1,5 @@
 
-    }
-
-    function sub(uint x, uint y) internal pure returns (uint z) {
+    n sub(uint x, uint y) internal pure returns (uint z) {
         require((z = x - y) <= x, 'ds-math-sub-underflow');
     }
 
