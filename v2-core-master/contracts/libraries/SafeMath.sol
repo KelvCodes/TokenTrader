@@ -1,4 +1,3 @@
-
-        require(y == 0 || (z = x * y) / y == x, 'ds-math-mul-overflow');
+ x * y) / y == x, 'ds-math-mul-overflow');
     }
 }
