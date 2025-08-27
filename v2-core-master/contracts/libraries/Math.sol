@@ -1,5 +1,4 @@
-
-        z = x < y ? x : y;
+ < y ? x : y;
     }
 
     // babylonian method (https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method)
