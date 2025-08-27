@@ -1,4 +1,4 @@
-uint z) {
+ z) {
         z = x < y ? x : y;
     }
 
