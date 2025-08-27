@@ -1,4 +1,4 @@
-y) internal pure returns (uint z) {
+ternal pure returns (uint z) {
         z = x < y ? x : y;
     }
 
