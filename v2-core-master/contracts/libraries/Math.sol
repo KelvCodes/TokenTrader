@@ -1,4 +1,4 @@
- pure returns (uint z) {
+ z) {
         if (y > 3) {
             z = y;
             uint x = y / 2 + 1;
