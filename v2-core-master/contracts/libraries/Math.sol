@@ -1,4 +1,4 @@
-returns (uint z) {
+rns (uint z) {
         z = x < y ? x : y;
     }
 
