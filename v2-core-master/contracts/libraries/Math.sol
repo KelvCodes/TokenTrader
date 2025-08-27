@@ -1,4 +1,4 @@
-g_square_roots#Babylonian_method)
+roots#Babylonian_method)
     function sqrt(uint y) internal pure returns (uint z) {
         if (y > 3) {
             z = y;
