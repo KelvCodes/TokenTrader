@@ -1,4 +1,4 @@
-al pure returns (uint z) {
+returns (uint z) {
         z = x < y ? x : y;
     }
 
