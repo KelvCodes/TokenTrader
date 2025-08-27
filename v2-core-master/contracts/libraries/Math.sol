@@ -1,4 +1,4 @@
-rns (uint z) {
+uint z) {
         z = x < y ? x : y;
     }
 
