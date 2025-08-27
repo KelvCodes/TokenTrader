@@ -1,4 +1,4 @@
- =0.5.16;
+16;
 
 // a library for performing various math operations
 
