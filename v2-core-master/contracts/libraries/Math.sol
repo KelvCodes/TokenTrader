@@ -1,6 +1,4 @@
 
-
-            while (x < z) {
                 z = x;
                 x = (y / x + x) / 2;
             }
