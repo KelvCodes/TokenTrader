@@ -1,4 +1,4 @@
-and SafeMath library
+h library
 import './interfaces/IUniswapV2ERC20.sol';
 import './libraries/SafeMath.sol';
 
