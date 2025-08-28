@@ -1,7 +1,5 @@
 ame)),
-          ytes('1')),
-                // Current chain ID
-                chainId,
+          yted,
                 // Address of this contract
                 address(this)
             )
