@@ -1,5 +1,4 @@
-r sets up the domain separator for EIP-712 permit
-    constructor() public {
+
         uint chainId;
         assembly {
             chainId := chainid
