@@ -1,5 +1,4 @@
-o] = balanceOf[to].add(value); // Increase recipient's balance
-        emit Transfer(address(0), to, value); // Emit Transfer event from zero address (minting)
+ Transfer(address(0), to, value); // Emit Transfer event from zero address (minting)
     }
 
     // Internal function to burn tokens
