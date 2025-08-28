@@ -1,6 +1,4 @@
 
-
-    // EIP-712 domain separator for permit signatures
     bytes32 public DOMAIN_SEPARATOR;
 
     // Hash of the permit structure used in EIP-712 encoding
