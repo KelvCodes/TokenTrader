@@ -1,6 +1,4 @@
 
-
-    // Mapping to track nonces for permit (prevents replay attacks)
     mapping(address => uint) public nonces;
 
     // Events required by ERC20 standard
