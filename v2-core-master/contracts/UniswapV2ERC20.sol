@@ -1,6 +1,4 @@
 
-
-    // Mapping to track each account's balance
     mapping(address => uint) public balanceOf;
 
     // Mapping to track allowances: owner => (spender => amount)
