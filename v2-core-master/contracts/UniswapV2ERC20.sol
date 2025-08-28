@@ -1,5 +1,4 @@
-
-            ch store DOMAIN_SEPARATOR according to EIP-712
+ according to EIP-712
         DOMAIN_SEPARATOR = keccak256(
             abi.encode(
                 // Hash of domain schema
