@@ -1,6 +1,4 @@
 
-
-    // Mapping to track allowances: owner => (spender => amount)
     mapping(address => mapping(address => uint)) public allowance;
 
     // EIP-712 domain separator for permit signatures
