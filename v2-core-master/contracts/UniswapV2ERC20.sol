@@ -1,6 +1,4 @@
 
-        uint chainId;
-        assembly {
             chainId := chainid
         }
         // Calculate and store DOMAIN_SEPARATOR according to EIP-712
