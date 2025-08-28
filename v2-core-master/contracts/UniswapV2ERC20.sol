@@ -1,8 +1,4 @@
-ame)),
-          yted,
-                // Address of this contract
-                address(this)
-            )
+
         );
     }
 
