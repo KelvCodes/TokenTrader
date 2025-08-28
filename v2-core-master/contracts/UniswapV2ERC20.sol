@@ -1,4 +1,4 @@
-ant symbol = 'UNI-V2';
+
     uint8 public constant decimals = 18;
 
     // Total token supply
