@@ -1,5 +1,4 @@
 
-    mapping(address => mapping(address => uint)) public allowance;
 
     // EIP-712 domain separator for permit signatures
     bytes32 public DOMAIN_SEPARATOR;
