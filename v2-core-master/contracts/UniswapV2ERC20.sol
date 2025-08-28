@@ -1,5 +1,4 @@
 
-    using SafeMath for uint;
 
     // Token metadata
     string public constant name = 'Uniswap V2';
