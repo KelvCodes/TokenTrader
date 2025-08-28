@@ -1,6 +1,4 @@
-
-    // Internal function to mint new tokens
-    function _mint(address to, uint value) internal {
+to, uint value) internal {
         totalSupply = totalSupply.add(value); // Increase total supply
         balanceOf[to] = balanceOf[to].add(value); // Increase recipient's balance
         emit Transfer(address(0), to, value); // Emit Transfer event from zero address (minting)
