@@ -1,5 +1,4 @@
 
-    uint public totalSupply;
 
     // Mapping to track each account's balance
     mapping(address => uint) public balanceOf;
