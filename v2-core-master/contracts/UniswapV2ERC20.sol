@@ -1,5 +1,4 @@
 
-    // Total token supply
     uint public totalSupply;
 
     // Mapping to track each account's balance
