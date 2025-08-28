@@ -1,5 +1,4 @@
-t Transfer event from zero address (minting)
-    }
+
 
     // Internal function to burn tokens
     function _burn(address from, uint value) internal {
