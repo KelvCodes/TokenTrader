@@ -1,7 +1,4 @@
 
-        );
-    }
-
     // Internal function to mint new tokens
     function _mint(address to, uint value) internal {
         totalSupply = totalSupply.add(value); // Increase total supply
