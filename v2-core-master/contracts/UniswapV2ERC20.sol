@@ -1,5 +1,4 @@
 
-    event Approval(address indexed owner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
 
     // Contract constructor sets up the domain separator for EIP-712 permit
