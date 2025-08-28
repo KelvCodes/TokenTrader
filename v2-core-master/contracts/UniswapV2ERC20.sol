@@ -1,4 +1,4 @@
- Transfer(address(0), to, value); // Emit Transfer event from zero address (minting)
+t Transfer event from zero address (minting)
     }
 
     // Internal function to burn tokens
