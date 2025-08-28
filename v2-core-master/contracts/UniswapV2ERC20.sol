@@ -1,4 +1,4 @@
-ERC20 interface and SafeMath library
+face and SafeMath library
 import './interfaces/IUniswapV2ERC20.sol';
 import './libraries/SafeMath.sol';
 
