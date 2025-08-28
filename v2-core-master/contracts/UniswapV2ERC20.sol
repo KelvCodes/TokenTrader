@@ -1,6 +1,4 @@
-
-
-    // Contract constructor sets up the domain separator for EIP-712 permit
+r sets up the domain separator for EIP-712 permit
     constructor() public {
         uint chainId;
         assembly {
