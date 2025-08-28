@@ -1,5 +1,4 @@
-lSupply.add(vaase total supply
-        balanceOf[to] = balanceOf[to].add(value); // Increase recipient's balance
+o] = balanceOf[to].add(value); // Increase recipient's balance
         emit Transfer(address(0), to, value); // Emit Transfer event from zero address (minting)
     }
 
