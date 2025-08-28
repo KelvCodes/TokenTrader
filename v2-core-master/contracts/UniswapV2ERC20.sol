@@ -1,6 +1,4 @@
-
-        balanceOf[from] = balanceOf[from].sub(value); // Decrease sender's balance
-        totalSupply = totalSupply.sub(value); // Decrease total supply
+/ Decrease total supply
         emit Transfer(from, address(0), value); // Emit Transfer event to zero address (burning)
     }
 
