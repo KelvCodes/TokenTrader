@@ -1,6 +1,5 @@
 ame)),
-                // Hash of version (fixed as '1')
-                keccak256(bytes('1')),
+          ytes('1')),
                 // Current chain ID
                 chainId,
                 // Address of this contract
