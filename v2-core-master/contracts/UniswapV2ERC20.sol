@@ -1,6 +1,4 @@
-
-
-// UniswapV2ERC20 contract implements an ERC20 token with permit (EIP-2612) functionality
+wapV2ERC20 contract implements an ERC20 token with permit (EIP-2612) functionality
 contract UniswapV2ERC20 is IUniswapV2ERC20 {
     using SafeMath for uint;
 
