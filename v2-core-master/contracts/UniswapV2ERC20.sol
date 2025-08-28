@@ -1,6 +1,4 @@
 
-
-    // Internal function to burn tokens
     function _burn(address from, uint value) internal {
         balanceOf[from] = balanceOf[from].sub(value); // Decrease sender's balance
         totalSupply = totalSupply.sub(value); // Decrease total supply
