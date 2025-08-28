@@ -1,5 +1,4 @@
 
-    mapping(address => uint) public nonces;
 
     // Events required by ERC20 standard
     event Approval(address indexed owner, address indexed spender, uint value);
