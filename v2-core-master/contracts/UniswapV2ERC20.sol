@@ -1,5 +1,4 @@
-
-import './interfaces/IUniswapV2ERC20.sol';
+erfaces/IUniswapV2ERC20.sol';
 import './libraries/SafeMath.sol';
 
 // UniswapV2ERC20 contract implements an ERC20 token with permit (EIP-2612) functionality
