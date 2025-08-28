@@ -1,5 +1,4 @@
 
-    mapping(address => uint) public balanceOf;
 
     // Mapping to track allowances: owner => (spender => amount)
     mapping(address => mapping(address => uint)) public allowance;
