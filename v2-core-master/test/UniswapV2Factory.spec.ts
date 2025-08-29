@@ -1,5 +1,4 @@
 
-import { bigNumberify } from 'ethers/utils'
 import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
 
 // Import utility function for computing create2 addresses
