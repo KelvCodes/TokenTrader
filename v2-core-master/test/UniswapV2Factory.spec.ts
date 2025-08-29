@@ -1,8 +1,6 @@
 
     await createPair(TEST_ADDRESSES.slice().reverse() as [string, string])
-  })
-
-  // Test: Measure gas used in pair creation
+ Measure gas used in pair creation
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
     const receipt = await tx.wait()
