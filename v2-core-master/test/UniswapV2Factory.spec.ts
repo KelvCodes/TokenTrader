@@ -1,6 +1,4 @@
-tory.getPai
-    // Instantiate the pair contract and validate its properties
-    const pair = new Contract(create2Address, JSON.stringify(UniswapV2Pair.abi), provider)
+iswapV2Pair.abi), provider)
     expect(await pair.factory()).to.eq(factory.address)
     expect(await pair.token0()).to.eq(TEST_ADDRESSES[0])
     expect(await pair.token1()).to.eq(TEST_ADDRESSES[1])
