@@ -1,5 +1,4 @@
 
-  let factory: Contract
 
   // Deploy a fresh factory contract before each test
   beforeEach(async () => {
