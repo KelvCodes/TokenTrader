@@ -1,7 +1,4 @@
 
-    const create2Address = getCreate2Address(factory.address, tokens, bytecode)
-
-    // Create pair and check that event is emitted with correct arguments
     await expect(factory.createPair(...tokens))
       .to.emit(factory, 'PairCreated')
       .withArgs(TEST_ADDRESSES[0], TEST_ADDRESSES[1], create2Address, bigNumberify(1))
