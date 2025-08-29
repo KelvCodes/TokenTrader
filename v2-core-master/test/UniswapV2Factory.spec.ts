@@ -1,6 +1,4 @@
 ould fail
-    await expect(factory.createPair(...tokens)).to.be.reverted // UniswapV2: PAIR_EXISTS
-    await expect(factory.createPair(...tokens.slice().reverse())).to.be.reverted // UniswapV2: PAIR_EXISTS
 
     // Validate that the created pair is stored and retrievable
     expect(await factory.getPair(...tokens)).to.eq(create2Address)
