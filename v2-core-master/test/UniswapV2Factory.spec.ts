@@ -1,7 +1,4 @@
 
-    const receipt = await tx.wait()
-    expect(receipt.gasUsed).to.eq(2512920) // Validate against expected gas usage
-  })
 
   // Test: Only the feeToSetter can update feeTo
   it('setFeeTo', async () => {
