@@ -1,7 +1,5 @@
 
-
-  // Test: Creating a pair in normal order
-  it('createPair', async () => {
+r', async () => {
     await createPair(TEST_ADDRESSES)
   })
 
