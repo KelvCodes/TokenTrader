@@ -1,5 +1,4 @@
-
-// Use Chai plugin for better Solidity assertions
+ for better Solidity assertions
 chai.use(solidity)
 
 // Predefined test addresses for simulating token contracts
