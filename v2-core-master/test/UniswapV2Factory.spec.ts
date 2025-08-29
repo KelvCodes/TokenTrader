@@ -1,6 +1,5 @@
 
 
-  // Deploy a fresh factory contract before each test
   beforeEach(async () => {
     const fixture = await loadFixture(factoryFixture)
     factory = fixture.factory
