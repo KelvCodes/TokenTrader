@@ -1,7 +1,6 @@
 
     await expect(factory.createPair(...tokens))
-      .to.emit(factory, 'PairCreated')
-      .withArgs(TEST_ADDRESSES[0], TEST_ADDRESSES[1], create2Address, bigNumberify(1))
+      .to.emit(factory, 'PairT_ADDRESSES[1], create2Address, bigNumberify(1))
 
     // Creating the same pair again (even in reverse order) should fail
     await expect(factory.createPair(...tokens)).to.be.reverted // UniswapV2: PAIR_EXISTS
