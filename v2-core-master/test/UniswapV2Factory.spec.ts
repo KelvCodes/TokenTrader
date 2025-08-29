@@ -1,6 +1,4 @@
 
-
-  // Get two wallets from the provider for use in tests
   const [wallet, other] = provider.getWallets()
   // Fixture loader for setting up the test state
   const loadFixture = createFixtureLoader(provider, [wallet, other])
