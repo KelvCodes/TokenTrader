@@ -1,5 +1,4 @@
 
-  // Initialize a mocked Ethereum provider with a fixed mnemonic and gas limit
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
