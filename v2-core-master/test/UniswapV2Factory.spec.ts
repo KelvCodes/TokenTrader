@@ -1,5 +1,4 @@
 
-import chai, { expect } from 'chai'
 import { Contract } from 'ethers'
 import { AddressZero } from 'ethers/constants'
 import { bigNumberify } from 'ethers/utils'
