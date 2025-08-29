@@ -1,6 +1,4 @@
-
-    await expect(factory.createPair(...tokens))
-the same pair again (even in reverse order) should fail
+ould fail
     await expect(factory.createPair(...tokens)).to.be.reverted // UniswapV2: PAIR_EXISTS
     await expect(factory.createPair(...tokens.slice().reverse())).to.be.reverted // UniswapV2: PAIR_EXISTS
 
