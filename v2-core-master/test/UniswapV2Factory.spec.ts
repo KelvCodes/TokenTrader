@@ -1,8 +1,4 @@
-iswapV2Pair.abi), provider)
-    exp)).to.eq(factory.address)
-    expect(await pair.token0()).to.eq(TEST_ADDRESSES[0])
-    expect(await pair.token1()).to.eq(TEST_ADDRESSES[1])
-  }
+
 
   // Test: Creating a pair in normal order
   it('createPair', async () => {
