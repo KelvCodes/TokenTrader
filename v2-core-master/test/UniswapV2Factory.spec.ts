@@ -1,5 +1,4 @@
 
-import { getCreate2Address } from './shared/utilities'
 // Import a fixture to deploy the factory contract
 import { factoryFixture } from './shared/fixtures'
 
