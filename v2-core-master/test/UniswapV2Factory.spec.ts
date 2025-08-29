@@ -1,6 +1,4 @@
 
-// Predefined test addresses for simulating token contracts
-const TEST_ADDRESSES: [string, string] = [
   '0x1000000000000000000000000000000000000000',
   '0x2000000000000000000000000000000000000000'
 ]
