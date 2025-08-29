@@ -1,6 +1,4 @@
 
-  const loadFixture = createFixtureLoader(provider, [wallet, other])
-
   let factory: Contract
 
   // Deploy a fresh factory contract before each test
