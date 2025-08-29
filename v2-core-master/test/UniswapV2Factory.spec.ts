@@ -1,8 +1,4 @@
 
-  })
-correctness
-  async function createPair(tokens: [string, string]) {
-    const bytecode = `0x${UniswapV2Pair.evm.bytecode.object}`
     const create2Address = getCreate2Address(factory.address, tokens, bytecode)
 
     // Create pair and check that event is emitted with correct arguments
