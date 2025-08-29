@@ -1,6 +1,4 @@
 
-
-// Import compiled UniswapV2Pair artifact for ABI and bytecode
 import UniswapV2Pair from '../build/UniswapV2Pair.json'
 
 // Use Chai plugin for better Solidity assertions
