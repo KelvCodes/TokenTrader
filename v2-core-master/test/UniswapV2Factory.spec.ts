@@ -1,5 +1,4 @@
 
-  // Fixture loader for setting up the test state
   const loadFixture = createFixtureLoader(provider, [wallet, other])
 
   let factory: Contract
