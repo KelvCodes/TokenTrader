@@ -1,5 +1,4 @@
 
-// Import a fixture to deploy the factory contract
 import { factoryFixture } from './shared/fixtures'
 
 // Import compiled UniswapV2Pair artifact for ABI and bytecode
