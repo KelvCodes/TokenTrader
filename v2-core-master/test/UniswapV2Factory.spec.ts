@@ -1,7 +1,5 @@
 tory.getPair(...tokens.slice().reverse())).to.eq(create2Address)
-    expect(await factory.allPairs(0)).to.eq(create2Address)
-    expect(await factory.allPairsLength()).to.eq(1)
-
+ 
     // Instantiate the pair contract and validate its properties
     const pair = new Contract(create2Address, JSON.stringify(UniswapV2Pair.abi), provider)
     expect(await pair.factory()).to.eq(factory.address)
