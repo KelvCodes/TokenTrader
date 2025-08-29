@@ -1,7 +1,6 @@
 
   })
-
-  // Helper function to create a new pair and validate its correctness
+correctness
   async function createPair(tokens: [string, string]) {
     const bytecode = `0x${UniswapV2Pair.evm.bytecode.object}`
     const create2Address = getCreate2Address(factory.address, tokens, bytecode)
