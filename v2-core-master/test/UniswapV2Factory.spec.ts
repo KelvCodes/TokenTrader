@@ -1,5 +1,3 @@
- for better Solidity assertions
-chai.use(solidity)
 
 // Predefined test addresses for simulating token contracts
 const TEST_ADDRESSES: [string, string] = [
