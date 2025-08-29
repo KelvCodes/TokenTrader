@@ -1,6 +1,6 @@
 
 
-  beforeEach(async () => {
+
     const fixture = await loadFixture(factoryFixture)
     factory = fixture.factory
   })
