@@ -1,6 +1,4 @@
 
-    gasLimit: 9999999
-  })
 
   // Get two wallets from the provider for use in tests
   const [wallet, other] = provider.getWallets()
