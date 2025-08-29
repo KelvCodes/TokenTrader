@@ -1,6 +1,4 @@
 
-// Begin test suite for UniswapV2Factory
-describe('UniswapV2Factory', () => {
   // Initialize a mocked Ethereum provider with a fixed mnemonic and gas limit
   const provider = new MockProvider({
     hardfork: 'istanbul',
