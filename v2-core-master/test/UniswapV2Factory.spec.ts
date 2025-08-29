@@ -1,8 +1,5 @@
 
-
-  // Test: Only the feeToSetter can update feeTo
-  it('setFeeTo', async () => {
-    await expect(factory.connect(other).setFeeTo(other.address)).to.be.revertedWith('UniswapV2: FORBIDDEN')
+other).setFeeTo(other.address)).to.be.revertedWith('UniswapV2: FORBIDDEN')
     await factory.setFeeTo(wallet.address)
     expect(await factory.feeTo()).to.eq(wallet.address)
   })
