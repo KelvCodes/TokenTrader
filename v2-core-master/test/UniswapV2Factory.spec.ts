@@ -1,4 +1,4 @@
-ry libraries and dependencies
+and dependencies
 import chai, { expect } from 'chai'
 import { Contract } from 'ethers'
 import { AddressZero } from 'ethers/constants'
