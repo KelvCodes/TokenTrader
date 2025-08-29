@@ -1,8 +1,4 @@
-ould fail
-
-    // Validate that the created pair is stored and retrievable
-    expect(await factory.getPair(...tokens)).to.eq(create2Address)
-    expect(await factory.getPair(...tokens.slice().reverse())).to.eq(create2Address)
+tory.getPair(...tokens.slice().reverse())).to.eq(create2Address)
     expect(await factory.allPairs(0)).to.eq(create2Address)
     expect(await factory.allPairsLength()).to.eq(1)
 
