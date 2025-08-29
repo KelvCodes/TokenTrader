@@ -1,5 +1,4 @@
 
-  // Check initial values for feeTo, feeToSetter, and pair count
   it('feeTo, feeToSetter, allPairsLength', async () => {
     expect(await factory.feeTo()).to.eq(AddressZero)
     expect(await factory.feeToSetter()).to.eq(wallet.address)
