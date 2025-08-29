@@ -1,8 +1,4 @@
 
-
-
-  // Test: Creating a pair in reverse token order
-  it('createPair:reverse', async () => {
     await createPair(TEST_ADDRESSES.slice().reverse() as [string, string])
   })
 
