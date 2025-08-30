@@ -1,4 +1,4 @@
-nal pure returns (uint224 z) {
+ure returns (uint224 z) {
         z = uint224(y) * Q112; // never overflows
     }
 
