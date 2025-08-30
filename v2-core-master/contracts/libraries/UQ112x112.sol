@@ -1,5 +1,4 @@
-
-ary UQ112x112 {
+ UQ112x112 {
     uint224 constant Q112 = 2**112;
 
     // encode a uint112 as a UQ112x112
