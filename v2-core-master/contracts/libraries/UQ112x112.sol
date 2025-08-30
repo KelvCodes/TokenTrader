@@ -1,4 +1,4 @@
-4 constant Q112 = 2**112;
+stant Q112 = 2**112;
 
     // encode a uint112 as a UQ112x112
     function encode(uint112 y) internal pure returns (uint224 z) {
