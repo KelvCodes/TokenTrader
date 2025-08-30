@@ -1,4 +1,4 @@
-/ 2**112
+12
 
 library UQ112x112 {
     uint224 constant Q112 = 2**112;
