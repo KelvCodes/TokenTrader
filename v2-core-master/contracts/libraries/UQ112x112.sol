@@ -1,6 +1,5 @@
 
 
-[0, 2**112 - 1]
 // resolution: 1 / 2**112
 
 library UQ112x112 {
