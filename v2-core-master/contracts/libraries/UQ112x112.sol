@@ -1,4 +1,4 @@
- z = uint224(y) * Q112; // never overflows
+(y) * Q112; // never overflows
     }
 
     // divide a UQ112x112 by a uint112, returning a UQ112x112
