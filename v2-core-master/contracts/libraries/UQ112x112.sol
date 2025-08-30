@@ -1,4 +1,4 @@
-internal pure returns (uint224 z) {
+nal pure returns (uint224 z) {
         z = uint224(y) * Q112; // never overflows
     }
 
