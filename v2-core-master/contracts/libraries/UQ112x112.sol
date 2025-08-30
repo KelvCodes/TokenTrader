@@ -1,4 +1,4 @@
-ure returns (uint224 z) {
+urns (uint224 z) {
         z = uint224(y) * Q112; // never overflows
     }
 
