@@ -1,4 +1,4 @@
-; // never overflows
+s
     }
 
     // divide a UQ112x112 by a uint112, returning a UQ112x112
