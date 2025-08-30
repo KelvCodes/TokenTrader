@@ -1,4 +1,4 @@
-int224 z) {
+4 z) {
         z = uint224(y) * Q112; // never overflows
     }
 
