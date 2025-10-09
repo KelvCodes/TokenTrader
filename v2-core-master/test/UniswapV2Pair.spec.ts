@@ -1,10 +1,6 @@
 Amount)
 
-  // Helper function to abstract liquidity provision logic
-  aoken1.trans
-  // Predefined swap scenarios with expected outputs
-  const swapTestCases: BigNumber[][] = [
-    [1, 5, 10, '1662497915624478906'],
+, '1662497915624478906'],
     [1, 10, 5, '453305446940074565'],
     [2, 5, 10, '2851015155847869602'],
     [2, 10, 5, '831248957812239453'],
