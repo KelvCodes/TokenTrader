@@ -1,7 +1,5 @@
 
-    const expectedLiquidity = expandTo18Decimals(2)
-
-    // Execute mint and validate expected events
+    const expectedLiquidity = expandT
     await expect(pair.mint(wallet.address, overrides))
       .to.emit(pair, 'Transfer')
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
