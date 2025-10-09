@@ -1,6 +1,4 @@
-
-  const 
-    mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
+rn horn horn horn horn horn horn horn horn horn horn horn',
     gasLimit: 9999999
   })
 
