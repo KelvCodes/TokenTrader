@@ -1,6 +1,4 @@
 
-import { solidity, Mocfrom 'ethers/utils'
-
 // Custom utility functions and test fixtures
 import { expandTo18Decimals, mineBlock, encodePrice } from './shared/utilities'
 import { pairFixture } from './shared/fixtures'
