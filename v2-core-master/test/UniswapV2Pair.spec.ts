@@ -1,6 +1,4 @@
 s
-chai.use(solidity)
-
 // Global overrides for consistent gas limit across all txs
 const overrides = {
   gasLimit: 9999999
