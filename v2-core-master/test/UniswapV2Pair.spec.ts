@@ -1,7 +1,5 @@
 
   /ct
-  let token1: Contract
-  let pair: Contract
 
   // Before each test, deploy contracts using the fixture
   beforeEach(async () => {
