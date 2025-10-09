@@ -1,6 +1,4 @@
-
-    const expectedLi
-      .withArgs(AddressZero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
+Zero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
       .to(pair, 'Mint')
       .withArgs(wallet.address, token0Amount, token1Amount)
 
