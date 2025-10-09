@@ -1,6 +1,5 @@
 
-  const provider = new MockProvider({
-    hardfork: 'istanbul',
+  const 
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
     gasLimit: 9999999
   })
