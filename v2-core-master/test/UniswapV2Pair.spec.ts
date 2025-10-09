@@ -1,6 +1,4 @@
-y contracts using the fixture
-  beforeEach(async () => {
-    const fixture = await loadFixture(pairFixture)
+ait loadFixture(pairFixture)
     factory = fixture.factory
     token0 = fixture.token0
     token1 = fixture.token1
