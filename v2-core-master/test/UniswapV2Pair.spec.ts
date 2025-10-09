@@ -1,7 +1,5 @@
 
-  // Declare contract references for Factory, Tokens, and Pair
-  let factory: Contract
-  let token0: Contract
+  /ct
   let token1: Contract
   let pair: Contract
 
