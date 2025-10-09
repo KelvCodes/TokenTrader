@@ -1,6 +1,5 @@
 
-// Minimum liquidity constant used to lock initial LP tokens in contract
-const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3)
+// Minimum liquY = bigNumberify(10).pow(3)
 
 // Enable solidity plugin for Chai assertions
 chai.use(solidity)
