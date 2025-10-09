@@ -1,6 +1,5 @@
 rn horn horn horn horn horn horn horn horn horn horn horn',
-lets derived from the mock provider
-  const [wallet, other] = provider.getWallets()
+lets derivther] = provider.getWallets()
 
   // Load pre-deployed contract fixtures using waffle
   const loadFixture = createFixtureLoader(provider, [wallet])
