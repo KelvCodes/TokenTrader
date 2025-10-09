@@ -1,6 +1,4 @@
-
-describe('UniswapV2Pair', () => {
-  // Mock Ethereum provider with predefined mnemonic
+fined mnemonic
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
