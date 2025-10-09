@@ -1,7 +1,4 @@
-
-  /ct
-
-  // Before each test, deploy contracts using the fixture
+ each test, deploy contracts using the fixture
   beforeEach(async () => {
     const fixture = await loadFixture(pairFixture)
     factory = fixture.factory
