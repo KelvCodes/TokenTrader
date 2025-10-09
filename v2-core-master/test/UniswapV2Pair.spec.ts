@@ -1,6 +1,4 @@
 
-// Minimum liquY = bigNumberify(10).pow(3)
-
 // Enable solidity plugin for Chai assertions
 chai.use(solidity)
 
