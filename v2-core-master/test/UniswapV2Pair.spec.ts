@@ -1,8 +1,6 @@
 
     token0 =
-  })
-
-  // Test minting of liquidity tokens
+ dity tokens
   it('mint', async () => {
     const token0Amount = expandTo18Decimals(1)
     const token1Amount = expandTo18Decimals(4)
