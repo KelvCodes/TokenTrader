@@ -1,11 +1,7 @@
  '1662497915624478906'],
     [1, 10, 5, '453305446940074565'],
     [ '987158034397061298'],
-   ce:${i}`, async () => {
-      const [swapAmount, token0Amount, token1Amount, expectedOutputAmount] = swapTestCase
-      await addLiquidity(token0Amount, token1Amount)
-      await token0.transfer(pair.address, swapAmount)
-
+   ce:${i
       // Revert if output is greater than expected
       await expect(pair.swap(0, expectedOutputAmount.add(1), wallet.address, '0x', overrides)).to.be.revertedWith(
         'UniswapV2: K'
