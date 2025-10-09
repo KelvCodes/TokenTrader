@@ -1,6 +1,4 @@
-
-  // Load pre-deployed contract fixtures using waffle
-  const loadFixture = createFixtureLoader(provider, [wallet])
+t loadFixture = createFixtureLoader(provider, [wallet])
 
   // Declare contract references for Factory, Tokens, and Pair
   let factory: Contract
