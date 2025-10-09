@@ -1,6 +1,4 @@
 
-
-    // Check balances, supply, and reserve consistency
     expect(await pair.totat.address)).to.eq(expectedLiquidity.sub(MINIMUM_LIQUIDITY))
     expect(await token0.balanceOf(pair.address)).to.eq(token0Amount)
     expect(await token1.balanceOf(pair.address)).to.eq(token1Amount)
