@@ -1,6 +1,5 @@
 
-import { solidity, MockProvider, createFixtureLoader } from 'ethereum-waffle'
-import { BigNumber, bigNumberify } from 'ethers/utils'
+import { solidity, Mocfrom 'ethers/utils'
 
 // Custom utility functions and test fixtures
 import { expandTo18Decimals, mineBlock, encodePrice } from './shared/utilities'
