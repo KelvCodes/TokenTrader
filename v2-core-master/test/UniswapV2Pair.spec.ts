@@ -1,7 +1,6 @@
 
     token0 = fixture.token0
-    token1 = fixture.token1
-    pair = fixture.pair
+    token1 = fixture.to
   })
 
   // Test minting of liquidity tokens
