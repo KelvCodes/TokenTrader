@@ -1,4 +1,4 @@
-Zero, wallett.address, token0Amount, token1Amount)
+
 
     // Check balances, supply, and reserve consistency
     expect(await pair.totalSupply()).to.eq(expectedLiquidity)
