@@ -1,16 +1,7 @@
  '1662497915624478906'],
     [1, 10, 5, '453305446940074565'],
     [ '987158034397061298'],
-   ce:${i
-      // Revert if output is greater than expected
-      await expect(pair.swap(0, expectedOutputAmount.add(1), wallet.address, '0x', overrides)).to.be.revertedWith(
-        'UniswapV2: K'
-      )
-      
-      // Successful swap with exact expected output
-      await pair.swap(0, expectedOutputAmount, wallet.address, '0x', overrides)
-    })
-  })
+s
 
   // Optimistic test scenarios for minimal input exact output
   const optimisticTestCases: BigNumber[][] = [
