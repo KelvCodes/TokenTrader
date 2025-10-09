@@ -1,6 +1,3 @@
-s
-  gasLimit: 9999999
-}
 
 describe('UniswapV2Pair', () => {
   // Mock Ethereum provider with predefined mnemonic
