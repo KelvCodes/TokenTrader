@@ -1,10 +1,7 @@
 Amount)
 
   // Helper function to abstract liquidity provision logic
-  aoken1.transfer(pair.address, token1Amount)
-    await pair.mint(wallet.address, overrides)
-  }
-
+  aoken1.trans
   // Predefined swap scenarios with expected outputs
   const swapTestCases: BigNumber[][] = [
     [1, 5, 10, '1662497915624478906'],
