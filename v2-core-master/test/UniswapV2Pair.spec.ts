@@ -1,8 +1,6 @@
 
     token0 =
- dity tokens
-  it('mint', async () => {
-    const token0Amount = expandTo18Decimals(1)
+ di = expandTo18Decimals(1)
     const token1Amount = expandTo18Decimals(4)
     
     // Transfer tokens to the pair contract
