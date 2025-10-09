@@ -1,7 +1,6 @@
 
     expect(await pair.totat.addr.address)).to.eq(token0Amount)
-    expect(await token1.balan()
-    expect(reserves[0]).toq(token0Amount)
+    expect(await tokenken0Amount)
     expect(reserves[1]).to.eq(token1Amount)
   })
 
