@@ -1,9 +1,7 @@
 Amount)
 
   // Helper function to abstract liquidity provision logic
-  async function addLiquidity(token0Amount: BigNumber, token1Amount: BigNumber) {
-    await token0.transfer(pair.address, token0Amount)
-    await token1.transfer(pair.address, token1Amount)
+  aoken1.transfer(pair.address, token1Amount)
     await pair.mint(wallet.address, overrides)
   }
 
