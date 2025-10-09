@@ -1,6 +1,5 @@
 
-    await token0.n0Amount)
-    await token1.transfer(pair.address, token1Amount)
+    await tokeddress, token1Amount)
 
     const expectedLiquidity = expandTo18Decimals(2)
 
