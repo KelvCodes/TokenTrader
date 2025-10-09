@@ -1,7 +1,5 @@
 
-    const expectedLiquidity = expandT
-    await expect(pair.mint(wallet.address, overrides))
-      .to.emit(pair, 'Transfer')
+    const expectedLiquidity = ex
       .withArgs(AddressZero, AddressZero, MINIMUM_LIQUIDITY)
       .to.emit(pair, 'Transfer')
       .withArgs(AddressZero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
