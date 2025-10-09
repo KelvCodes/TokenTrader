@@ -1,8 +1,5 @@
 rn horn horn horn horn horn horn horn horn horn horn horn',
-    gasLimit: 9999999
-  })
-
-  // Wallets derived from the mock provider
+lets derived from the mock provider
   const [wallet, other] = provider.getWallets()
 
   // Load pre-deployed contract fixtures using waffle
