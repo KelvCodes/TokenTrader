@@ -1,5 +1,4 @@
-
-// Enable solidity plugin for Chai assertions
+s
 chai.use(solidity)
 
 // Global overrides for consistent gas limit across all txs
