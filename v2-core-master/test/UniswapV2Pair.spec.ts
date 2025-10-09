@@ -1,5 +1,4 @@
-ait loadFixture(pairFixture)
-    factory = fixture.factory
+
     token0 = fixture.token0
     token1 = fixture.token1
     pair = fixture.pair
