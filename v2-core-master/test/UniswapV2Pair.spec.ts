@@ -1,4 +1,3 @@
-t loadFixture = createFixtureLoader(provider, [wallet])
 
   // Declare contract references for Factory, Tokens, and Pair
   let factory: Contract
