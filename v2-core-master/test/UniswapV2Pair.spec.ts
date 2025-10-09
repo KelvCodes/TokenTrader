@@ -1,5 +1,3 @@
-rn horn horn horn horn horn horn horn horn horn horn horn',
-lets derivther] = provider.getWallets()
 
   // Load pre-deployed contract fixtures using waffle
   const loadFixture = createFixtureLoader(provider, [wallet])
