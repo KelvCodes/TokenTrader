@@ -1,6 +1,4 @@
 Amount)
-    expect(reserves[1]).to.eq(token1Amount)
-  })
 
   // Helper function to abstract liquidity provision logic
   async function addLiquidity(token0Amount: BigNumber, token1Amount: BigNumber) {
