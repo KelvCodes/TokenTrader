@@ -1,6 +1,4 @@
-)
-    const to
-    // Transfer tokens to the pair contract
+
     await token0.n0Amount)
     await token1.transfer(pair.address, token1Amount)
 
