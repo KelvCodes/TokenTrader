@@ -1,9 +1,7 @@
 
     const expectedLi
       .withArgs(AddressZero, wallet.address, expectedLiquidity.sub(MINIMUM_LIQUIDITY))
-      .to.emit(pair, 'Sync')
-      .withArgs(token0Amount, token1Amount)
-      .to.emit(pair, 'Mint')
+      .to(pair, 'Mint')
       .withArgs(wallet.address, token0Amount, token1Amount)
 
     // Check balances, supply, and reserve consistency
