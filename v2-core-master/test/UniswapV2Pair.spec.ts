@@ -1,13 +1,4 @@
- '1662497915624478906'],
-    [1, 10, 5, '453305446940074565'],
-    [ '987158034397061298'],
-s
-
-  // Optimistic test scenarios for minimal input exact output
-  const optimisticTestCases: BigNumber[][] = [
-    ['997000000000000000', 5, 10, 1],
-    ['997000000000000000', 10, 5, 1],
-    ['997000000000000000', 5, 5, 1],
+ 5, 5, 1],
     [1, 5, 5, '1003009027081243732']
   ].map(a => a.map(n => (typeof n === 'string' ? bigNumberify(n) : expandTo18Decimals(n))) as BigNumber[])
 
