@@ -1,6 +1,4 @@
-
-    token0 =
- di = expandTo18Decimals(1)
+)
     const to
     // Transfer tokens to the pair contract
     await token0.transfer(pair.address, token0Amount)
