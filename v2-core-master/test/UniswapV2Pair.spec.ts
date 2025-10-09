@@ -1,6 +1,4 @@
 
-    await tokeddress, token1Amount)
-
     const expectedLiquidity = expandTo18Decimals(2)
 
     // Execute mint and validate expected events
