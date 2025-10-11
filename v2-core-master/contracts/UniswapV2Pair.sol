@@ -1,8 +1,7 @@
 data, (boolamount0Out, uint amount1Out, address indexed to);
     event Sync(uint112 reserve0, uint112 reserve1);
 
-        factory = msg.sender;
-    }
+        factory = m
 
     // Initialize the pair with two tokens (only callable by factory)
     function initialize(address _token0, address _token1) external {
