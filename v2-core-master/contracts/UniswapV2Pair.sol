@@ -1,5 +1,4 @@
-
-     == 0 || abi.decode(data, (bool))), 'UniswapV2: TRANSFER_FAILED');
+data, (bool))), 'UniswapV2: TRANSFER_FAILED');
     }
 
     // Events for external tracking
