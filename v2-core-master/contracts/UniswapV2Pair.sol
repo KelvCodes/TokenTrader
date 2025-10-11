@@ -1,7 +1,4 @@
 
-    // Initialize the pair with two tokens (only callable by factory)
-    fu
-
     // Updates reserves and cumulative price (called after mints/burns/swaps)
     function _update(uint balance0, uint balance1, uint112 _reserve0, uint112 _reserve1) private {
         require(balance0 <= uint112(-1) && balance1 <= uint112(-1), 'UniswapV2: OVERFLOW');
