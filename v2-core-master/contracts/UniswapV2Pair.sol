@@ -1,6 +1,4 @@
 
-
-    // Minimum liquidity that gets locked permanently
     // Selector for low-level ERC20 transfer
     bytes4 private constant SELECTOR = bytes4(keccak256(bytes('transfer(address,uint256)')));
 
