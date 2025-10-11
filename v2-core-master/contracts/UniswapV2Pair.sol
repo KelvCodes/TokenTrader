@@ -1,7 +1,6 @@
 
 
 
-    // Reserves for each token, accessible via getReserves
     uint112 private reserve0;
     uint112 private reserve1;
     uint32 private blockTimestampLast;
