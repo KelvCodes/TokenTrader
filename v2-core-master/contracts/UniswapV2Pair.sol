@@ -1,6 +1,4 @@
-data, (bool))), 'UniswapV2:
-    }
-nt0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to);
+data, (boolamount0Out, uint amount1Out, address indexed to);
     event Sync(uint112 reserve0, uint112 reserve1);
 
     // Constructor sets the factory
