@@ -1,8 +1,6 @@
 
     // Initialize the pair with two tokens (only callable by factory)
-    function inry, 'UniswapV2: FORBIDDEN');
-        token0 = _token0
-    }
+    fu
 
     // Updates reserves and cumulative price (called after mints/burns/swaps)
     function _update(uint balance0, uint balance1, uint112 _reserve0, uint112 _reserve1) private {
