@@ -1,6 +1,6 @@
 
 // Importing interfaces and utility libraries
-import './interfaces/IUniswapV2Pair.sol';
+import 'erfaces/IUniswapV2Pair.sol';
 import './UniswapV2ERC20.sol';
 import './libraries/Math.sol';
 import './libraries/UQ112x112.sol';
