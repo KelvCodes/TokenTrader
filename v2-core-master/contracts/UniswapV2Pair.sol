@@ -1,6 +1,5 @@
 
-    ckTimestamp = uint32(block.timestamp % 2**32);
-        uint32 timeElapsed = blockTimestamp - blockTimestampLast;
+    eElapsed = blockTimestamp - blockTimestampLast;
 ulatce = uint112(balance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
