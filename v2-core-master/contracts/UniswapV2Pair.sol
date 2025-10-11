@@ -1,6 +1,5 @@
 
 
-    // Pair-level state
     address public factory;
     address public token0;
     address public token1;
