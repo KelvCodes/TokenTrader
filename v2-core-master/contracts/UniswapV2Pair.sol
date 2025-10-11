@@ -1,8 +1,5 @@
 
 
-
-
-    // Cumulative price data for TWAP
     uint public price0CumulativeLast;
     uint public price1CumulativeLast;
     uint public kLast; // reserve0 * reserve1 after the last liquidity event
