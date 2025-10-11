@@ -1,6 +1,5 @@
 
 
-    address public token1;
 
     // Reserves for each token, accessible via getReserves
     uint112 private reserve0;
