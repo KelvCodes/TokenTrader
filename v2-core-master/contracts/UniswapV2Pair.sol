@@ -1,7 +1,5 @@
 
-    // Updates reserves and cumulative price (called after mints/burns/swaps)
-    function _update(uint balbalance1 <= uint112(-1), 'UniswapV2: OVERFLOW');
-        uint32 blockTimestamp = uint32(block.timestamp % 2**32);
+    ckTimestamp = uint32(block.timestamp % 2**32);
         uint32 timeElapsed = blockTimestamp - blockTimestampLast;
 
         // Update cumulative prices if time has passed and reserves are non-zero
