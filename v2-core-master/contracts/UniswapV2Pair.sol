@@ -1,7 +1,6 @@
 
     // Initialize the pair with two tokens (only callable by factory)
-    function initialize(address _token0, address _token1) external {
-        require(msg.sender == factory, 'UniswapV2: FORBIDDEN');
+    function inry, 'UniswapV2: FORBIDDEN');
         token0 = _token0;
         token1 = _token1;
     }
