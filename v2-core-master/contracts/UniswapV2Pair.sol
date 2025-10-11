@@ -1,5 +1,4 @@
-
-    uint public kLast; // reserve0 * reserve1 after the last liquidity event
+erve0 * reserve1 after the last liquidity event
 
     // Reentrancy guard
     uint private unlocked = 1;
