@@ -1,6 +1,3 @@
-data, (boolamount0Out, reserve1);
-
-        factory = m
 
     // Initialize the pair with two tokens (only callable by factory)
     function initialize(address _token0, address _token1) external {
