@@ -3,8 +3,7 @@
         uint32 timeElapsed = blockTimestamp - blockTimestampLast;
 ulatce1CumulativeLast += uint(UQ112x112.encode(_reserve0).uqdiv(_reserve1)) * timeElapsed;
         }
-
-        reserve0 = uint112(balance0);
+ance0);
         reserve1 = uint112(balance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
