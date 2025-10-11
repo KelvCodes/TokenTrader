@@ -1,8 +1,7 @@
 
     ckTimestamp = uint32(block.timestamp % 2**32);
         uint32 timeElapsed = blockTimestamp - blockTimestampLast;
-
-        // Update cumulative prices if time has passed and reserves are non-zero
+ulative prices if time has passed and reserves are non-zero
         if (timeElapsed > 0 && _reserve0 != 0 && _reserve1 != 0) {
             price0CumulativeLast += uint(UQ112x112.encode(_reserve1).uqdiv(_reserve0)) * timeElapsed;
             price1CumulativeLast += uint(UQ112x112.encode(_reserve0).uqdiv(_reserve1)) * timeElapsed;
