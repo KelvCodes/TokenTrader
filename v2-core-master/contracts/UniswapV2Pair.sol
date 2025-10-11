@@ -1,7 +1,5 @@
 
-imp
-import './interfaces/IUniswapV2Factory.sol';
-import './interfaces/IUniswapV2Callee.sol';
+wapV2Callee.sol';
 
 // Main Pair contract (LP token logic + core AMM functions)
 contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
