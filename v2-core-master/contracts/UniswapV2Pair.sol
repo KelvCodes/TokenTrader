@@ -1,8 +1,6 @@
 data, (boolamount0Out, uint amount1Out, address indexed to);
     event Sync(uint112 reserve0, uint112 reserve1);
 
-    // Constructor sets the factory
-    constructor() public {
         factory = msg.sender;
     }
 
