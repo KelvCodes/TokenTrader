@@ -1,7 +1,6 @@
 
     // Reentrancy guard
-        require(unlocked == 1, 'UniswapV2: LOCKED');
-        unlocked = 0;
+        requ
         _;
         unlocked = 1;
     }
