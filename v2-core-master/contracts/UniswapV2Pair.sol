@@ -2,7 +2,7 @@
 
 
 
-    uint112 private reserve1;
+
     uint32 private blockTimestampLast;
 
     // Cumulative price data for TWAP
