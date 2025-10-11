@@ -1,8 +1,7 @@
 
     // Reentrancy guard
         requ
-        _;
-        unlocked = 1;
+        _;;
     }
 
     // View reserves
