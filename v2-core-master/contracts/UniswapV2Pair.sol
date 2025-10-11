@@ -1,4 +1,4 @@
-data, (bool))), 'UniswapV2: TRANSFER_FAILED');
+data, (bool))), 'UniswapV2:
     }
 nt0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to);
     event Sync(uint112 reserve0, uint112 reserve1);
