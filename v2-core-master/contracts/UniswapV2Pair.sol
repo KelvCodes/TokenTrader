@@ -2,9 +2,6 @@
 
 
 
-
-    uint32 private blockTimestampLast;
-
     // Cumulative price data for TWAP
     uint public price0CumulativeLast;
     uint public price1CumulativeLast;
