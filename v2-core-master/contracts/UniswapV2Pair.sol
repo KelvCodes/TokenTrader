@@ -1,8 +1,6 @@
 
 wapV2Callee.sol';
-
-// Main Pair contract (LP token logic + core AMM functions)
-contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
+UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
     using SafeMath for uint;
     using UQ112x112 for uint224;
 
