@@ -1,7 +1,5 @@
 
 
-    address public factory;
-    address public token0;
     address public token1;
 
     // Reserves for each token, accessible via getReserves
