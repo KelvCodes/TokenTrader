@@ -1,4 +1,3 @@
-pragma solidity =0.5.16;
 
 // Importing interfaces and utility libraries
 import './interfaces/IUniswapV2Pair.sol';
