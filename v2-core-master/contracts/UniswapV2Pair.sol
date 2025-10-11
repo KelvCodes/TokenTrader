@@ -1,8 +1,4 @@
 
-    // Reentrancy guard
-        requ
-        _;;
-    }
 
     // View reserves
     function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast) {
