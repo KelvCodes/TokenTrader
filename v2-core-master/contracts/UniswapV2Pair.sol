@@ -2,8 +2,7 @@ ance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
     }
-
-    // Mint protocol fee to feeTo address if applicable
+feeTo address if applicable
     function _mintFee(uint112 _reserve0, uint112 _reserve1) private returns (bool feeOn) {
         address feeTo = IUniswapV2Factory(factory).feeTo();
         feeOn = feeTo != address(0);
