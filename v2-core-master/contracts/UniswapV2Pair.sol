@@ -1,8 +1,6 @@
 data, (bool))), 'UniswapV2: TRANSFER_FAILED');
     }
-
-    // Events for external tracking
-    event Mint(address nder, uint amount0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to);
+nt0In, uint amount1In, uint amount0Out, uint amount1Out, address indexed to);
     event Sync(uint112 reserve0, uint112 reserve1);
 
     // Constructor sets the factory
