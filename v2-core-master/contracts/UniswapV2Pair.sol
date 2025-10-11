@@ -1,6 +1,4 @@
-
-    eElapsed = blockTimestamp - blockTimestampLast;
-ulatce = uint112(balance1);
+ance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
     }
