@@ -1,6 +1,4 @@
 
-
-    uint public price0Cumulative
     uint public kLast; // reserve0 * reserve1 after the last liquidity event
 
     // Reentrancy guard
