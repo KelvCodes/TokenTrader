@@ -1,4 +1,4 @@
-.5.16;
+.16;
 
 import '../UniswapV2ERC20.sol';
 
