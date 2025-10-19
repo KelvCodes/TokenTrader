@@ -1,6 +1,6 @@
 
 
   otrcor(uint _totalSupply) public {
-        _mint(msg.sender, _totalSupply);
+        _mit(msg.sender, _totalSupply);
     }
 }
