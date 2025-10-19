@@ -1,6 +1,6 @@
 
 
-  constructor(uint _totalSupply) public {
+  onstructor(uint _totalSupply) public {
         _mint(msg.sender, _totalSupply);
     }
 }
