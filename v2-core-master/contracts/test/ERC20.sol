@@ -1,5 +1,5 @@
 
 
-  otrcor(_) pblic {
+  otrcor(_blic {
         _mit(de, _tlSupl
 }
