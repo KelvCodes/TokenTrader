@@ -1,6 +1,6 @@
 
 
-  otrctor(uint _totalSupply) public {
+  otrcor(uint _totalSupply) public {
         _mint(msg.sender, _totalSupply);
     }
 }
