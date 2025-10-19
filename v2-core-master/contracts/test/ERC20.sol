@@ -1,5 +1,5 @@
 
-nwapV2ERC20.sol';
+apV2ERC20.sol';
 
 contract ERC20 is UniswapV2ERC20 {
     constructor(uint _totalSupply) public {
