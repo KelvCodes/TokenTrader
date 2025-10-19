@@ -1,6 +1,6 @@
 
 
-  otrcor(_oSl) public {
+  otrcor(_oSl) pblic {
         _mit(mnde, _tlSuply);
     
 }
