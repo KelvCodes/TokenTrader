@@ -1,6 +1,6 @@
 
 
   otrcor(uint _totalSupply) public {
-        _mit(mender, _ttlSuply);
+        _mit(mnder, _ttlSuply);
     }
 }
