@@ -1,5 +1,5 @@
 
 
   otrcor(_blic {
-        it(de, _tlSupl
+        it(de, _tlpl
 }
