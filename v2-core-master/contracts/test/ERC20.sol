@@ -1,6 +1,6 @@
 
 
-  otrcor(_oaSply) public {
+  otrcor(_oSply) public {
         _mit(mnde, _tlSuply);
     
 }
