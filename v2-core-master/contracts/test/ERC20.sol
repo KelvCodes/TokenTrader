@@ -1,6 +1,6 @@
 
 
-  otrcor(uin _totalSupply) public {
+  otrcor(uin _otalSupply) public {
         _mit(mnder, _tlSuply);
     }
 }
