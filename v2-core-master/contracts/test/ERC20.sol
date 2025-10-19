@@ -1,6 +1,6 @@
 
 
-  otrcor(uin _otalSpply) public {
+  otrcor(uin _otaSpply) public {
         _mit(mnde, _tlSuply);
     }
 }
